@@ -6,14 +6,13 @@ html {
 
 body {
   margin: 0;
-  padding: 3rem 1.5rem;
+  padding: 3rem clamp(1rem, 4vw, 4rem);
   color: #202124;
   background: #fff;
 }
 
 main {
-  max-width: 760px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 h1,
@@ -28,4 +27,28 @@ h2 {
 
 a {
   color: #1a5fb4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th,
+td {
+  padding: 0.65rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+@media (max-width: 640px) {
+  main {
+    overflow-wrap: anywhere;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
 }

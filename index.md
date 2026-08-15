@@ -33,10 +33,12 @@ B.S. in Mathematics
 
 I have served as a graduate teaching assistant at Georgia Tech for the following courses:
 
-- **MATH 1553 — Introduction to Linear Algebra**, Teaching Assistant, Summer 2025
+- [**MATH 1553 — Introduction to Linear Algebra**]({{ '/teaching/math-1553/' | relative_url }}), Teaching Assistant, Summer 2025
 - **MATH 1554 — Linear Algebra I**, Recitation Instructor
-- **MATH 2551 — Multivariable Calculus**, Recitation Instructor
-- **MATH 1552 — Integral Calculus**, Recitation Instructor
+- [**MATH 2551 — Multivariable Calculus**]({{ '/teaching/math-2551/' | relative_url }}), Recitation Instructor
+- [**MATH 1552 — Integral Calculus**]({{ '/teaching/math-1552/' | relative_url }}), Recitation Instructor
+
+[View all teaching materials →]({{ '/teaching/' | relative_url }})
 
 ## Contact
 
