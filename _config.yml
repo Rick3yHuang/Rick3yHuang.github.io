@@ -1,0 +1,13 @@
+title: Ruiqi (Rickey) Huang
+description: Mathematics Ph.D. student at Georgia Tech working in computational algebraic geometry.
+url: "https://rick3yhuang.github.io"
+baseurl: ""
+
+author:
+  name: Ruiqi (Rickey) Huang
+  email: rhuang346@gatech.edu
+  github: Rick3yHuang
+  linkedin: ruiqi-huang-44968a1a2
+
+markdown: kramdown
+permalink: pretty

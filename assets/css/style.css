@@ -1,0 +1,31 @@
+/* Visual design will be developed after the site's content and structure are finalized. */
+html {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 1.5rem;
+  color: #202124;
+  background: #fff;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+a {
+  color: #1a5fb4;
+}
