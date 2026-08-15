@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+project_dir="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+cd "$project_dir"
+
+exec env RUBYOPT="-r${project_dir}/_plugins/ruby_compat.rb" \
+  /opt/homebrew/opt/ruby@3.3/bin/bundle exec jekyll serve --livereload "$@"
