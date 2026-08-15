@@ -3,11 +3,21 @@ layout: default
 title: Home
 ---
 
-# Ruiqi (Rickey) Huang
-
-Mathematics Ph.D. student at Georgia Tech working in computational algebraic geometry.
-
-[Curriculum Vitae](https://drive.google.com/file/d/1MhxrPEpgCm5eVYNSZXDtqhUZp06M7SbI/view?usp=sharing) · [GitHub](https://github.com/Rick3yHuang) · [LinkedIn](https://www.linkedin.com/in/ruiqi-huang-44968a1a2/) · [Email](mailto:rhuang346@gatech.edu)
+<section class="hero">
+  <img class="hero__image" src="{{ '/assets/images/profile-hero.jpg' | relative_url }}" alt="Ruiqi Huang standing in front of a mountain landscape">
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">Mathematics · Georgia Tech</p>
+    <h1>Ruiqi <span>(Rickey)</span> Huang</h1>
+    <p class="hero__intro">Ph.D. student working in computational algebraic geometry.</p>
+    <nav class="hero__links" aria-label="Profile links">
+      <a href="https://drive.google.com/file/d/1MhxrPEpgCm5eVYNSZXDtqhUZp06M7SbI/view?usp=sharing">Curriculum Vitae</a>
+      <a href="https://github.com/Rick3yHuang">GitHub</a>
+      <a href="https://www.linkedin.com/in/ruiqi-huang-44968a1a2/">LinkedIn</a>
+      <a href="mailto:rhuang346@gatech.edu">Email</a>
+    </nav>
+  </div>
+</section>
 
 ## About
 
