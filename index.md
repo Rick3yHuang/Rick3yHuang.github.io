@@ -171,9 +171,59 @@ title: Home
   </div>
 </section>
 
-<section class="content-section" id="teaching">
+<section class="content-section" id="activities">
   <header class="section-heading">
     <span class="section-number" aria-hidden="true">03</span>
+    <h2>Activities</h2>
+  </header>
+  <div class="section-body timeline-section-body">
+    <div class="timeline-list activities-timeline">
+      {% for event in site.data.activities limit:5 %}
+        <div class="timeline-entry">
+          <time class="timeline-date" datetime="{{ event.date }}">{{ event.date_label }}</time>
+          <article class="activity-card">
+            <div class="activity-card__meta">
+              <p class="activity-card__type">{{ event.type }}</p>
+              {% if event.participation %}<span class="activity-role activity-role--{{ event.participation | downcase }}">{{ event.participation }}</span>{% endif %}
+            </div>
+            <h3>{% if event.url %}<a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>{% else %}{{ event.title }}{% endif %}</h3>
+            {% if event.venue %}<p class="activity-card__venue">{{ event.venue }}</p>{% endif %}
+            {% if event.location %}<p class="activity-card__location">{{ event.location }}</p>{% endif %}
+          </article>
+        </div>
+        {% if event.current_marker_after %}
+          <div class="timeline-entry activities-current">
+            <span class="timeline-date">Current</span>
+            <div class="activities-current__label">Now</div>
+          </div>
+        {% endif %}
+      {% else %}
+        <div class="timeline-entry activities-current">
+          <span class="timeline-date">Current</span>
+          <div class="activities-current__label">Now</div>
+        </div>
+        <div class="timeline-entry activities-empty">
+          <span class="timeline-date" aria-hidden="true"></span>
+          <div>{% include wip-cocona.html text="Activities coming soon" %}</div>
+        </div>
+      {% endfor %}
+      <div class="timeline-entry timeline-entry--publication activities-all">
+        <span class="timeline-date" aria-hidden="true"></span>
+        <a class="timeline-publication-link" href="{{ '/activities/' | relative_url }}">
+          <span>
+            <strong>All past events</strong>
+            <small>Conferences, workshops, talks, and visits</small>
+          </span>
+          <span class="timeline-publication-link__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section" id="teaching">
+  <header class="section-heading">
+    <span class="section-number" aria-hidden="true">04</span>
     <h2>Teaching</h2>
   </header>
   <div class="section-body">
@@ -185,16 +235,5 @@ title: Home
       <li><a href="{{ '/teaching/math-1552/' | relative_url }}"><strong>MATH 1552</strong> — Integral Calculus</a></li>
     </ul>
     <a class="section-link" href="{{ '/teaching/' | relative_url }}">View all teaching materials <span aria-hidden="true">→</span></a>
-  </div>
-</section>
-
-<section class="content-section" id="contact">
-  <header class="section-heading">
-    <span class="section-number" aria-hidden="true">04</span>
-    <h2>Contact</h2>
-  </header>
-  <div class="section-body">
-    <p>The best way to reach me is by email at <a href="mailto:rhuang346@gatech.edu">rhuang346@gatech.edu</a>.</p>
-    <p><a href="https://github.com/Rick3yHuang">GitHub</a> · <a href="https://www.linkedin.com/in/ruiqi-huang-44968a1a2/">LinkedIn</a> · <a href="https://math.gatech.edu/">Georgia Tech School of Mathematics</a></p>
   </div>
 </section>

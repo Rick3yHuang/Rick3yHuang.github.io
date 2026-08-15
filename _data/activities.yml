@@ -1,0 +1,151 @@
+# Add activities in reverse chronological order (newest first).
+# The homepage displays only the first five entries; /activities/ displays all.
+#
+# - date: 2026-04
+#   date_label: Apr 2026
+#   type: Conference
+#   title: Event or presentation title
+#   venue: Event name
+#   location: City, State or Online
+#   url: https://example.com
+- date: "2026-10-10"
+  date_label: Oct 10–11, 2026
+  type: AMS Sectional Meeting
+  participation: Talk
+  title: 2026 Fall Southeastern Sectional Meeting
+  venue: Kennesaw State University
+  location: Kennesaw, Georgia
+  url: https://www.ams.org/meetings/sectional/fall2026se
+  current_marker_after: true
+
+- date: "2026-07-20"
+  date_label: Jul 20–23, 2026
+  type: International Conference
+  participation: Talk
+  title: International Congress on Mathematical Software (ICMS 2026)
+  venue: Wilfrid Laurier University and University of Waterloo
+  location: Waterloo, Ontario, Canada
+  url: https://icms-conference.org/2026/
+
+- date: "2026-07-06"
+  date_label: Jul 6–10, 2026
+  type: Conference
+  participation: Talk
+  title: 2026 SIAM Annual Meeting (AN26)
+  venue: Huntington Convention Center of Cleveland
+  location: Cleveland, Ohio
+  url: https://www.siam.org/conferences-events/siam-conferences/an26/
+
+- date: "2026-05-13"
+  date_label: May 13–21, 2026
+  type: Workshop
+  participation: Talk
+  title: The Future of Macaulay2
+  venue: Georgia Institute of Technology
+  location: Atlanta, Georgia
+  url: https://d-torrance.github.io/m2gt26/
+
+- date: "2026-04-18"
+  date_label: Apr 18–19, 2026
+  type: Regional Meeting
+  participation: Poster
+  title: Meeting on Applied Algebraic Geometry 2026
+  venue: Clemson University
+  location: Clemson, South Carolina
+  url: https://klee669.github.io/maag
+
+- date: "2026-03-28"
+  date_label: Mar 28–29, 2026
+  type: AMS Sectional Meeting
+  participation: Talk
+  title: 2026 Spring Southeastern Sectional Meeting
+  venue: Georgia Southern University–Armstrong Campus
+  location: Savannah, Georgia
+  url: https://www.ams.org/meetings/sectional/2329_progfull.html
+
+- date: "2025-11-24"
+  date_label: Nov 24–28, 2025
+  type: International Conference
+  participation: Talk
+  title: Computer Algebra in Scientific Computing (CASC 2025)
+  venue: Plekhanov University in Dubai
+  location: Dubai, United Arab Emirates
+  url: https://casc-conference.org/2025/index.html
+
+- date: "2025-07-07"
+  date_label: Jul 7–11, 2025
+  type: Conference
+  participation: Talk
+  title: SIAM Conference on Applied Algebraic Geometry (AG25)
+  venue: University of Wisconsin–Madison
+  location: Madison, Wisconsin
+  url: https://www.siam.org/conferences-events/past-event-archive/ag25/
+
+- date: "2025-06-30"
+  date_label: Jun 30–Jul 4, 2025
+  type: Workshop
+  participation: Talk
+  title: Macaulay2 Workshop — Madison 2025
+  venue: University of Wisconsin–Madison
+  location: Madison, Wisconsin
+  url: https://macaulay2.github.io/Workshop-2025-Madison/
+
+- date: "2025-04-14"
+  date_label: Apr 14–18, 2025
+  type: Workshop and Mini-School
+  title: Macaulay2 at Tulane
+  venue: Tulane University
+  location: New Orleans, Louisiana
+  url: https://sites.google.com/view/macaulay2tulane/
+
+- date: "2025-03-08"
+  date_label: Mar 8–9, 2025
+  type: AMS Sectional Meeting
+  participation: Talk
+  title: 2025 Spring Southeastern Sectional Meeting
+  venue: Clemson University
+  location: Clemson, South Carolina
+  url: https://www.ams.org/meetings/sectional/2324_program.html
+
+- date: "2024-07-20"
+  date_label: Jul 20–24, 2024
+  type: Workshop
+  participation: Talk
+  title: Algebraic Methods in Phylogenetics Workshop
+  venue: University of Hawaiʻi at Mānoa
+  location: Honolulu, Hawaiʻi
+  url: https://sites.google.com/hawaii.edu/summer-workshops-at-manoa/algebra-of-phylogenetics
+
+- date: "2024-07-16"
+  date_label: Jul 16–19, 2024
+  type: International Conference
+  title: International Symposium on Symbolic and Algebraic Computation (ISSAC 2024)
+  venue: North Carolina State University
+  location: Raleigh, North Carolina
+  url: https://www.issac-conference.org/2024/
+
+- date: "2024-07-14"
+  date_label: Jul 14–15, 2024
+  type: Mini-School
+  title: Macaulay2 Mini-School
+  venue: North Carolina State University
+  location: Raleigh, North Carolina
+  url: https://sites.google.com/view/m2-2024-in-raleigh/home
+
+- date: "2023-06-12"
+  date_label: Jun 12–23, 2023
+  type: Summer Graduate School
+  participation: Talk
+  title: MSRI-MPI Leipzig Summer Graduate School on Algebraic Methods for Biochemical Reaction Networks
+  venue: Max Planck Institute for Mathematics in the Sciences
+  location: Leipzig, Germany
+  url: https://www.mis.mpg.de/events/series/msri-mpi-leipzig-summer-graduate-school-on-algebraic-methods-for-biochemical-reaction-networks
+
+- date: "2023-04-15"
+  date_label: Apr 15–16, 2023
+  type: Conference
+  participation: Poster
+  title: Meeting on Applied Algebraic Geometry (MAAG)
+  venue: School of Mathematics, Georgia Institute of Technology
+  location: Atlanta, Georgia
+  url: https://sites.google.com/view/maag-2023/home

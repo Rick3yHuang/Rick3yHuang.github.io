@@ -31,7 +31,7 @@ permalink: /research/periodic-orbits/
     <h2>Overview</h2>
     <div class="research-detail__copy">
       <p>Built compact quartic and sextic implicit models for Earth–Moon Lyapunov and Halo orbits by fitting JPL catalogs and using the Jacobi constant to parameterize orbit families. Developed a Macaulay2 toolkit for constructing CR3BP liaison-navigation minimal problems and computing their algebraic degrees.</p>
-      {% include wip-cocona.html text="Work in progress" %}
+      {% include wip-cocona.html text="Webpage work in progress" %}
     </div>
   </section>
 </article>

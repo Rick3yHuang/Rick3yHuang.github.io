@@ -31,7 +31,7 @@ permalink: /research/initial-orbit-determination/
     <h2>Overview</h2>
     <div class="research-detail__copy">
       <p>Developed a candidate-evaluation routine for time-free, angles-only orbit determination from five 3D lines of sight, using polynomial consistency checks to identify candidate orbital planes. Designed adaptive triangulation and certified existence and exclusion oracles using interval arithmetic and the Krawczyk operator.</p>
-      {% include wip-cocona.html text="Work in progress" %}
+      {% include wip-cocona.html text="Webpage work in progress" %}
     </div>
   </section>
 </article>
