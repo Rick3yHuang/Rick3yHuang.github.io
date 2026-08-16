@@ -3,8 +3,49 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+    {% assign page_description = page.description | default: site.description %}
+    {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+    <meta name="description" content="{{ page_description | escape }}">
+    <link rel="canonical" href="{{ canonical_url }}">
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    {% if page.url == '/' %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": {{ '/' | absolute_url | append: '#person' | jsonify }},
+        "name": "Ruiqi Huang",
+        "alternateName": "Rickey Huang",
+        "url": {{ '/' | absolute_url | jsonify }},
+        "image": {{ '/assets/images/profile/profile-hero.jpg' | absolute_url | jsonify }},
+        "email": "mailto:rhuang346@gatech.edu",
+        "jobTitle": "Mathematics Ph.D. Candidate",
+        "description": {{ site.description | jsonify }},
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Georgia Institute of Technology",
+          "url": "https://www.gatech.edu/"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Wake Forest University",
+          "url": "https://www.wfu.edu/"
+        },
+        "knowsAbout": [
+          "Computational algebraic geometry",
+          "Numerical algebraic geometry",
+          "Astrodynamics",
+          "Initial orbit determination"
+        ],
+        "sameAs": [
+          "https://github.com/Rick3yHuang",
+          "https://www.linkedin.com/in/ruiqi-huang-44968a1a2/",
+          "https://scholar.google.com/citations?user=tlQGXsEAAAAJ&hl=en",
+          "https://orcid.org/0009-0005-4708-6846"
+        ]
+      }
+    </script>
+    {% endif %}
     <link rel="icon" href="{{ '/assets/images/branding/favicon.ico' | relative_url }}" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/branding/favicon-32.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/images/branding/apple-touch-icon.png' | relative_url }}">
