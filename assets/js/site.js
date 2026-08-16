@@ -73,6 +73,49 @@ document.querySelectorAll(".citation-copy").forEach((button) => {
 });
 
 const themeToggle = document.querySelector(".theme-toggle");
+const siteNavToggle = document.querySelector(".site-nav-toggle");
+const primaryNavigation = document.getElementById("primary-navigation");
+
+function setNavigationOpen(open) {
+  if (!siteNavToggle || !primaryNavigation) return;
+  primaryNavigation.hidden = !open;
+  siteNavToggle.setAttribute("aria-expanded", String(open));
+  siteNavToggle.setAttribute("aria-label", open ? "Hide navigation" : "Show navigation");
+  siteNavToggle.title = open ? "Hide navigation" : "Show navigation";
+}
+
+if (siteNavToggle && primaryNavigation) {
+  setNavigationOpen(siteNavToggle.getAttribute("aria-expanded") === "true");
+  siteNavToggle.addEventListener("click", () => {
+    setNavigationOpen(primaryNavigation.hidden);
+  });
+}
+
+const courseContextBack = document.querySelector("[data-course-context-back]");
+
+if (courseContextBack) {
+  const requestedContext = new URLSearchParams(window.location.search).get("from");
+  const referrerPath = document.referrer ? new URL(document.referrer).pathname : "";
+  const courseContext = requestedContext === "current" || requestedContext === "teaching"
+    ? requestedContext
+    : (referrerPath === "/teaching/math-1553/" ? "current" : "teaching");
+  const contextLabel = courseContextBack.querySelector("[data-course-context-label]");
+
+  courseContextBack.href = courseContext === "current"
+    ? courseContextBack.dataset.currentCourseUrl
+    : courseContextBack.dataset.teachingUrl;
+  if (contextLabel) {
+    contextLabel.textContent = courseContext === "current" ? "Current course" : "Teaching";
+  }
+
+  document.querySelectorAll(".course-archive__terms a").forEach((link) => {
+    const url = new URL(link.href);
+    if (url.pathname.startsWith("/teaching/math-1553/")) {
+      url.searchParams.set("from", courseContext);
+      link.href = url.href;
+    }
+  });
+}
 
 function updateThemeButton() {
   if (!themeToggle) return;

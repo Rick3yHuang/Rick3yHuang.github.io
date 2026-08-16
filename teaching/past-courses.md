@@ -35,7 +35,7 @@ permalink: /teaching/experiences/
     <div class="timeline-entry">
       <time class="timeline-date">Summer 2025</time>
       <div class="teaching-card-group">
-        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/summer-2025/' | relative_url }}">
+        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/summer-2025/' | relative_url }}?from=teaching">
           <div class="teaching-card__heading">
             <span class="teaching-card__code">MATH 1553</span>
             <span class="teaching-card__role">Role · Studio TA</span>
@@ -133,7 +133,7 @@ permalink: /teaching/experiences/
     <div class="timeline-entry">
       <time class="timeline-date">Fall 2022</time>
       <div class="teaching-card-group">
-        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/fall-2022/' | relative_url }}">
+        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/fall-2022/' | relative_url }}?from=teaching">
           <div class="teaching-card__heading">
             <span class="teaching-card__code">MATH 1553</span>
             <span class="teaching-card__role">Role · Studio TA</span>

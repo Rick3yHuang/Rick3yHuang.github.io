@@ -11,7 +11,7 @@ title: Home
       <p>I am a Ph.D. candidate in <a href="https://math.gatech.edu/">School of Mathematics </a> at <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>, under the supervision of <a href="https://antonleykin.math.gatech.edu/">Anton Leykin</a>. My research interests lie in computational algebraic geometry and its applications in astrodynamics.</p>
     </div>
     <nav class="hero__links" aria-label="Profile links">
-      <a href="{{ '/assets/files/ruiqi-huang-resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+      <a href="{{ '/assets/files/resume/ruiqi-huang-resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
         <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 2.75h8l4 4V21.25H6zM14 2.75v4h4M9 12h6M9 16h6"/></svg>
         <span>Resume</span>
       </a>
@@ -29,7 +29,7 @@ title: Home
       </button>
     </nav>
   </div>
-  <img class="hero__image" src="{{ '/assets/images/profile-hero.jpg' | relative_url }}" alt="Ruiqi Huang standing in front of a mountain landscape">
+  <img class="hero__image" src="{{ '/assets/images/profile/profile-hero.jpg' | relative_url }}" alt="Ruiqi Huang standing in front of a mountain landscape">
 </section>
 
 <section class="content-section" id="education">
@@ -127,7 +127,7 @@ title: Home
             </nav>
           </div>
           <div class="research-card__media research-card__media--filled research-card__media--portrait">
-            <img src="{{ '/assets/images/periodic-orbits-transparent.png' | relative_url }}" alt="Families of periodic orbits near the Moon and the L1 and L2 libration points">
+            <img src="{{ '/assets/images/research/periodic-orbits.png' | relative_url }}" alt="Families of periodic orbits near the Moon and the L1 and L2 libration points">
           </div>
         </article>
       </div>
@@ -157,7 +157,7 @@ title: Home
             </nav>
           </div>
           <div class="research-card__media research-card__media--filled research-card__media--iod">
-            <img src="{{ '/assets/images/iod-concept.svg' | relative_url }}?v=iod-4" alt="Concept illustration of candidate orbital planes, showing the origin at one focus and alternative planes whose foci are not at the origin">
+            <img src="{{ '/assets/images/research/iod-concept.svg' | relative_url }}?v=iod-4" alt="Concept illustration of candidate orbital planes, showing the origin at one focus and alternative planes whose foci are not at the origin">
           </div>
         </article>
       </div>
@@ -249,7 +249,7 @@ title: Home
       <div class="timeline-entry">
         <time class="timeline-date">Summer 2025</time>
         <div class="teaching-card-group">
-          <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/summer-2025/' | relative_url }}">
+          <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/summer-2025/' | relative_url }}?from=teaching">
             <div class="teaching-card__heading">
               <span class="teaching-card__code">MATH 1553</span>
               <span class="teaching-card__role">Role · Studio TA</span>

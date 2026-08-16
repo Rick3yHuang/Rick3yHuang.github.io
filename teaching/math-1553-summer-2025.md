@@ -5,7 +5,7 @@ permalink: /teaching/math-1553/summer-2025/
 ---
 
 <header class="course-hero">
-  <a class="page-intro__back" href="{{ '/teaching/math-1553/' | relative_url }}"><span aria-hidden="true">←</span> Current course</a>
+  <a class="page-intro__back" href="{{ '/' | relative_url }}#teaching" data-course-context-back data-current-course-url="{{ '/teaching/math-1553/' | relative_url }}" data-teaching-url="{{ '/' | relative_url }}#teaching"><span aria-hidden="true">←</span> <span data-course-context-label>Teaching</span></a>
   <p class="course-hero__eyebrow">MATH 1553 · Summer 2025</p>
   <h1>Introduction to Linear Algebra</h1>
   <p class="course-hero__lede">Archived handwritten notes and course resources.</p>
@@ -32,7 +32,7 @@ permalink: /teaching/math-1553/summer-2025/
   <details class="course-note">
     <summary><span class="course-note__week">Week 01 · Section 1.1</span><span class="course-note__title">Systems of Linear Equations</span><span class="course-note__toggle" aria-hidden="true"></span></summary>
     <div class="course-note__body"><figure class="course-pdf-pages" aria-label="Week 01 handwritten notes">
-      <img src="{{ '/assets/images/teaching/math-1553-week01.webp' | relative_url }}" width="2200" height="1375" loading="lazy" decoding="async" alt="Week 01 handwritten notes about systems of linear equations.">
+      <img src="{{ '/assets/images/teaching/math-1553/week01/page-1.webp' | relative_url }}" width="2200" height="1375" loading="lazy" decoding="async" alt="Week 01 handwritten notes about systems of linear equations.">
     </figure></div>
   </details>
 
@@ -70,7 +70,7 @@ permalink: /teaching/math-1553/summer-2025/
     </figure></div>
   </details>
 
-  <a class="course-complete-notes course-complete-notes--complete" href="{{ '/assets/files/teaching/math-1553-summer-2025-notes.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <a class="course-complete-notes course-complete-notes--complete" href="{{ '/assets/files/teaching/math-1553/summer-2025-complete-notes.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
     <span><small>Complete collection · 11 pages</small><strong>Weeks 01–06 Notes</strong></span>
     <em>PDF <span aria-hidden="true">↗</span></em>
   </a>

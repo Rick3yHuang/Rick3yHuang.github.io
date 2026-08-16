@@ -24,7 +24,7 @@ permalink: /research/periodic-orbits/
       </nav>
     </div>
     <figure class="research-detail__figure">
-      <img src="{{ '/assets/images/periodic-orbits-transparent.png' | relative_url }}" alt="Families of periodic orbits near the Moon and the L1 and L2 libration points">
+      <img src="{{ '/assets/images/research/periodic-orbits.png' | relative_url }}" alt="Families of periodic orbits near the Moon and the L1 and L2 libration points">
     </figure>
   </header>
   <section class="research-detail__content">

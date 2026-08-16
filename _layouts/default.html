@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" sizes="any">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.png' | relative_url }}">
-    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/branding/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/branding/favicon-32.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/branding/apple-touch-icon.png' | relative_url }}">
     <script>
       (() => {
         const savedTheme = localStorage.getItem("theme");
@@ -18,9 +18,20 @@
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>
   <body>
+    {% assign primary_nav_open = 'true' %}
+    {% if page.url == '/teaching/math-1553/' %}
+      {% assign primary_nav_open = 'false' %}
+    {% endif %}
     <header class="site-header">
-      <a class="site-name" href="{{ '/' | relative_url }}">Rickey Huang</a>
-      <nav class="site-nav" aria-label="Primary navigation">
+      <div class="site-header__identity">
+        <a class="site-name" href="{{ '/' | relative_url }}">Rickey Huang</a>
+        <button class="site-nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="{{ primary_nav_open }}" aria-label="{% if page.url == '/teaching/math-1553/' %}Show navigation{% else %}Hide navigation{% endif %}" title="{% if page.url == '/teaching/math-1553/' %}Show navigation{% else %}Hide navigation{% endif %}">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m9 6 6 6-6 6"/>
+          </svg>
+        </button>
+      </div>
+      <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation"{% if page.url == '/teaching/math-1553/' %} hidden{% endif %}>
         <a href="{{ '/' | relative_url }}#about">About</a>
         <a href="{{ '/' | relative_url }}#education">Education</a>
         <a href="{{ '/' | relative_url }}#research">Research</a>

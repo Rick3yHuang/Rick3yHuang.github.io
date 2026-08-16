@@ -24,7 +24,7 @@ permalink: /research/initial-orbit-determination/
       </nav>
     </div>
     <figure class="research-detail__figure research-detail__figure--iod">
-      <img src="{{ '/assets/images/iod-concept.svg' | relative_url }}?v=iod-4" alt="Concept illustration of candidate orbital planes">
+      <img src="{{ '/assets/images/research/iod-concept.svg' | relative_url }}?v=iod-4" alt="Concept illustration of candidate orbital planes">
     </figure>
   </header>
   <section class="research-detail__content">
