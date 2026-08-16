@@ -22,6 +22,7 @@ body {
   padding: 0 clamp(1rem, 4vw, 4rem) 3rem;
   color: #202124;
   background: #fbfdff;
+  overflow-x: hidden;
 }
 
 .site-header {
@@ -86,7 +87,7 @@ h2 {
 .hero {
   display: grid;
   min-height: 32rem;
-  padding-block: clamp(2.5rem, 6vw, 5rem);
+  padding: clamp(2.15rem, 5.2vw, 4.25rem) 0 clamp(2.5rem, 6vw, 5rem);
   grid-template-columns: minmax(0, 1fr) minmax(15rem, 24rem);
   gap: clamp(2rem, 4vw, 4rem);
   align-items: center;
@@ -276,11 +277,29 @@ a {
 }
 
 .content-section {
+  position: relative;
+  isolation: isolate;
   display: grid;
   padding-block: clamp(2rem, 4vw, 3.25rem);
   grid-template-columns: 1fr;
   gap: 2rem;
   border-top: 1px solid var(--blue-border);
+}
+
+.content-section::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: calc(50% - 50vw);
+  bottom: 0;
+  left: calc(50% - 50vw);
+  background: #fbfdff;
+  content: "";
+}
+
+#education::before,
+#activities::before {
+  background: #f5f9fc;
 }
 
 .section-heading {
@@ -529,10 +548,18 @@ a {
 .activity-card {
   --activity-accent: #1768ac;
   padding: 1rem 1.15rem;
-  background: rgba(237, 245, 250, 0.52);
+  background: rgba(255, 255, 255, 0.82);
   border: 1px solid var(--blue-border);
   border-left: 3px solid var(--activity-accent);
   transition: border-color 160ms ease, transform 160ms ease;
+}
+
+#activities .activities-timeline {
+  gap: 1rem;
+}
+
+#activities .activity-card {
+  padding-block: 0.82rem;
 }
 
 .activity-card:hover {
@@ -669,7 +696,7 @@ a {
   padding: 0.9rem 1.05rem;
   grid-template-columns: minmax(0, 1fr) auto;
   column-gap: 1rem;
-  background: rgba(247, 251, 254, 0.78);
+  background: #fff;
   border: 1px solid var(--blue-border);
   border-left: 3px solid var(--role-accent);
   color: inherit;
@@ -789,7 +816,7 @@ a.teaching-card:focus-visible {
   padding: 1.15rem;
   grid-template-columns: minmax(0, 1fr) minmax(10rem, 28%);
   gap: clamp(1.25rem, 3vw, 2.5rem);
-  background: #f5faff;
+  background: #fff;
   border: 1px solid var(--blue-border);
   overflow: hidden;
   transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
@@ -1873,7 +1900,7 @@ a.research-link:focus-visible {
   flex-direction: column;
   justify-content: space-between;
   color: #24465f;
-  background-color: #edf5fa;
+  background-color: #fbfdff;
   border: 1px solid var(--blue-border);
   overflow: hidden;
   isolation: isolate;
@@ -1905,7 +1932,7 @@ a.research-link:focus-visible {
 .education-card--gt {
   padding-right: 11.25rem;
   color: #003057;
-  background-color: #edf5fa;
+  background-color: #fbfdff;
   border-color: rgba(179, 163, 105, 0.56);
 }
 
@@ -1928,7 +1955,7 @@ a.research-link:focus-visible {
 }
 
 .education-card--gt .education-card__main h3 {
-  color: #857437;
+  color: #7d7145;
 }
 
 .education-card--gt .education-card__degree {
@@ -1955,7 +1982,7 @@ a.research-link:focus-visible {
 .education-card--wfu {
   color: #222;
   padding-right: 11.25rem;
-  background-color: #edf5fa;
+  background-color: #fbfdff;
   border-color: rgba(158, 126, 56, 0.56);
 }
 
@@ -1986,7 +2013,7 @@ a.research-link:focus-visible {
 }
 
 .education-card--wfu .education-card__main h3 {
-  color: #8c6d2c;
+  color: #836d3f;
 }
 
 .education-card--wfu .education-card__minor,
@@ -2050,9 +2077,29 @@ a.research-link:focus-visible {
   max-width: 24ch;
   margin: 0 0 0.65rem;
   color: #173b55;
-  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  font-size: clamp(1.14rem, 2.05vw, 1.425rem);
   line-height: 1.15;
   letter-spacing: -0.025em;
+}
+
+.site-footer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 1.2rem;
+  color: #718492;
+  border-top: 1px solid rgba(32, 33, 36, 0.12);
+  font-size: 0.72rem;
+  letter-spacing: 0.025em;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer span {
+  padding-inline: 0.35rem;
+  color: #9aa8b2;
 }
 
 .education-card__degree,
@@ -2246,6 +2293,11 @@ td {
     padding-bottom: 0.15rem;
     gap: 1.1rem;
     overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .site-nav a {
@@ -2254,23 +2306,45 @@ td {
 
   .hero {
     min-height: auto;
-    padding-block: 3rem;
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
+    padding-block: 2rem 2.5rem;
+    grid-template-columns: minmax(0, 1fr) 7.25rem;
+    gap: 1.25rem 1rem;
+    align-items: start;
   }
 
   .hero__image {
-    width: min(100%, 25rem);
-    max-height: 34rem;
-    justify-self: start;
+    width: 100%;
+    height: 9.5rem;
+    max-height: none;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: stretch;
+    object-position: 62% 46%;
+    border-radius: 0.75rem;
   }
 
   .hero__content {
-    padding: 0;
+    display: contents;
   }
 
   .hero h1 {
-    font-size: clamp(2.5rem, 12vw, 4rem);
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    font-size: clamp(2rem, 9.5vw, 2.75rem);
+  }
+
+  .hero__about {
+    width: 100%;
+    margin: 0;
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .hero__links {
+    grid-column: 1 / -1;
+    grid-row: 3;
   }
 
   .content-section {
@@ -2308,8 +2382,24 @@ td {
     text-align: left;
   }
 
-  .timeline-entry > article {
+  .timeline-entry > :not(.timeline-date) {
     grid-column: 2;
+  }
+
+  .activities-current {
+    grid-template-columns: var(--timeline-column) auto minmax(0, 1fr);
+    column-gap: 0.55rem;
+  }
+
+  .activities-current .timeline-date {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+  }
+
+  .activities-current > .activities-current__label {
+    grid-column: 3;
+    grid-row: 1;
   }
 
   .education-grid {
