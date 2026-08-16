@@ -39,7 +39,7 @@
 - date: "2026-05-13"
   date_label: May 13–21, 2026
   type: Workshop
-  participation: Talk
+  participation: Presentation
   title: The Future of Macaulay2
   venue: Georgia Institute of Technology
   location: Atlanta, Georgia
@@ -84,7 +84,7 @@
 - date: "2025-06-30"
   date_label: Jun 30–Jul 4, 2025
   type: Workshop
-  participation: Talk
+  participation: Presentation
   title: Macaulay2 Workshop — Madison 2025
   venue: University of Wisconsin–Madison
   location: Madison, Wisconsin
@@ -110,7 +110,7 @@
 - date: "2024-07-20"
   date_label: Jul 20–24, 2024
   type: Workshop
-  participation: Talk
+  participation: Presentation
   title: Algebraic Methods in Phylogenetics Workshop
   venue: University of Hawaiʻi at Mānoa
   location: Honolulu, Hawaiʻi
@@ -135,7 +135,7 @@
 - date: "2023-06-12"
   date_label: Jun 12–23, 2023
   type: Summer Graduate School
-  participation: Talk
+  participation: Presentation
   title: MSRI-MPI Leipzig Summer Graduate School on Algebraic Methods for Biochemical Reaction Networks
   venue: Max Planck Institute for Mathematics in the Sciences
   location: Leipzig, Germany

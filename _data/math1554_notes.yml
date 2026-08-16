@@ -1,0 +1,131 @@
+- id: w1-1
+  label: Week 01 · Part 1 · Section 1.1
+  title: Systems of Linear Equations
+  pages: 1
+  images: [page-1.webp]
+- id: w1-2
+  label: Week 01 · Part 2 · Section 1.2
+  title: Row Reduction & Echelon Forms
+  pages: 1
+  images: [page-1.webp]
+- id: w2-1
+  label: Week 02 · Part 1 · Sections 1.3–1.4
+  title: Vector Equations & the Matrix Equation Ax = b
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: w2-2
+  label: Week 02 · Part 2 · Section 1.5
+  title: Solution Sets of Linear Systems
+  pages: 1
+  images: [page-1.webp]
+- id: w3-1
+  label: Week 03 · Part 1 · Section 1.7
+  title: Linear Independence
+  pages: 1
+  images: [page-1.webp]
+- id: w3-2
+  label: Week 03 · Part 2 · Section 1.8
+  title: Introduction to Linear Transformations
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: w4-1
+  label: Week 04 · Sections 1.9–2.1
+  title: Matrices of Linear Transformations & Matrix Operations
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: m1
+  kind: review
+  label: Cumulative review · Sections 1.1–2.1 · 10 pages
+  title: Midterm 1 Review
+- id: w5-1
+  label: Week 05 · Part 1 · Sections 2.2–2.3
+  title: Matrix Inverses & Invertible Matrices
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: w5-2
+  label: Week 05 · Part 2 · Sections 2.4–2.5
+  title: Partitioned Matrices & Matrix Factorization
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w6-1
+  label: Week 06 · Part 1 · Sections 2.8–2.9
+  title: Subspaces, Dimension & Rank
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: w6-2
+  label: Week 06 · Part 2 · Sections 3.1–3.2
+  title: Introduction to Determinants
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w7-1
+  label: Week 07 · Part 1 · Sections 3.2–3.3
+  title: Determinants, Cramer's Rule & Volume
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w7-2
+  label: Week 07 · Part 2 · Section 4.9 (5.9)
+  title: Applications to Markov Chains
+  pages: 1
+  images: [page-1.webp]
+- id: w8-1
+  label: Week 08 · Sections 5.1–5.2
+  title: Eigenvectors, Eigenvalues & the Characteristic Equation
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: m2
+  kind: review
+  label: Cumulative review · Sections 2.2–5.2 · 14 pages
+  title: Midterm 2 Review
+- id: w9-2
+  label: Week 09 · Section 5.3
+  title: Diagonalization
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: w10-1
+  label: Week 10 · Part 1 · Sections 5.5 & 6.1
+  title: Complex Eigenvalues, Inner Products & Orthogonality
+  pages: 4
+  images: [page-1.webp, page-2.webp, page-3.webp, page-4.webp]
+- id: w10-2
+  label: Week 10 · Part 2 · Section 6.2
+  title: Orthogonal Sets
+  pages: 2
+  images: [page-1.webp, page-2.webp]
+- id: w11-1
+  label: Week 11 · Part 1 · Sections 6.3–6.4
+  title: Orthogonal Projections & the Gram–Schmidt Process
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w11-2
+  label: Week 11 · Part 2 · Sections 6.5–6.6
+  title: Least Squares, Machine Learning & Linear Models
+  pages: 1
+  images: [page-1.webp]
+- id: m3
+  kind: review
+  label: Cumulative review · Sections 5.3–6.6 · 12 pages
+  title: Midterm 3 Review
+- id: w13-1
+  label: Week 13 · Part 1 · Section 10.2
+  title: PageRank
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w13-2
+  label: Week 13 · Part 2 · Sections 7.1–7.2
+  title: Symmetric Matrices & Quadratic Forms
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w14-1
+  label: Week 14 · Part 1 · Section 7.3
+  title: Constrained Optimization
+  pages: 1
+  images: [page-1.webp]
+- id: w14-2
+  label: Week 14 · Part 2 · Section 7.4
+  title: Singular Value Decomposition
+  pages: 3
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: all
+  kind: complete
+  label: Complete collection · 46 pages
+  title: Complete Studio Notes

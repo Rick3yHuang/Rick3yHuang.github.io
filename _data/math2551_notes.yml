@@ -1,0 +1,84 @@
+- id: w1-1
+  label: Week 01 · Part 1 · Sections 12.2–12.3
+  title: Vectors, Dot Products & Calculus Review
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w1-2
+  label: Week 01 · Part 2 · Sections 12.1 & 12.4
+  title: 3D Coordinates & the Cross Product
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w2-2
+  label: Week 02 · Sections 12.5–12.6
+  title: Lines, Planes, Cylinders & Quadric Surfaces
+  images: [page-1.webp, page-2.webp, page-3.webp, page-4.webp]
+- id: w3-1
+  label: Week 03 · Part 1 · Sections 13.1–13.2
+  title: Space Curves, Vector Functions & Projectile Motion
+  images: [page-1.webp, page-2.webp]
+- id: w3-2
+  label: Week 03 · Part 2 · Sections 13.3–13.4
+  title: Arc Length, Curvature & Normal Vectors
+  images: [page-1.webp, page-2.webp]
+- id: m1
+  kind: review
+  label: Cumulative review · Sections 12.1–13.4 · 14 pages
+  title: Midterm 1 Review
+- id: w4-2
+  label: Week 04 · Section 14.1
+  title: Functions of Several Variables
+  images: [page-1.webp, page-2.webp]
+- id: w5-1
+  label: Week 05 · Part 1 · Sections 14.2–14.3
+  title: Limits, Continuity & Partial Derivatives
+  images: [page-1.webp, page-2.webp]
+- id: w5-2
+  label: Week 05 · Part 2 · Sections 14.3–14.4
+  title: Partial Derivatives & the Chain Rule
+  images: [page-1.webp]
+- id: w6-1
+  label: Week 06 · Part 1 · Sections 14.4–14.5
+  title: Chain Rule, Directional Derivatives & Gradients
+  images: [page-1.webp, page-2.webp, page-3.webp]
+- id: w6-2
+  label: Week 06 · Part 2 · Section 14.6
+  title: Tangent Planes, Linearization & Differentials
+  images: [page-1.webp, page-2.webp]
+- id: w7-1
+  label: Week 07 · Part 1 · Section 14.7
+  title: Extreme Values & Saddle Points
+  images: [page-1.webp]
+- id: w7-2
+  label: Week 07 · Part 2 · Section 14.8
+  title: Lagrange Multipliers
+  images: [page-1.webp]
+- id: m2
+  kind: review
+  label: Cumulative review · Sections 14.1–14.8 · 12 pages
+  title: Midterm 2 Review
+- id: w8-2
+  label: Week 08 · Sections 15.1–15.2
+  title: Double & Iterated Integrals
+  images: [page-1.webp]
+- id: w9-1
+  label: Week 09 · Part 1 · Sections 15.2–15.3
+  title: General Regions & Area by Double Integration
+  images: [page-1.webp]
+- id: w9-2
+  label: Week 09 · Part 2 · Sections 15.4–15.5
+  title: Polar Double Integrals & Triple Integrals
+  images: [page-1.webp]
+- id: w10-1
+  label: Week 10 · Part 1 · Sections 15.5–15.6
+  title: Triple Integrals & Applications
+  images: [page-1.webp, page-2.webp]
+- id: w10-2
+  label: Week 10 · Part 2 · Section 15.7
+  title: Cylindrical & Spherical Coordinates
+  images: [page-1.webp, page-2.webp]
+- id: m3
+  kind: review
+  label: Cumulative review · Sections 15.1–15.7 · 7 pages
+  title: Midterm 3 Review
+- id: all
+  kind: complete
+  label: Complete collection · Sections 12.1–16.7 · 55 pages
+  title: Complete Studio Notes

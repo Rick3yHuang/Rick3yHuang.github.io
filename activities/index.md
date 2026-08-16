@@ -18,7 +18,7 @@ permalink: /activities/
   </header>
   <div class="timeline-list activities-timeline">
     {% for event in site.data.activities %}
-      <div class="timeline-entry">
+      <div class="timeline-entry activity-entry activity-entry--{{ event.type | slugify }}">
         <time class="timeline-date" datetime="{{ event.date }}">{{ event.date_label }}</time>
         <article class="activity-card">
           <div class="activity-card__meta">

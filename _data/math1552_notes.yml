@@ -1,0 +1,96 @@
+- id: w1-1
+  label: Week 01 · Part 1 · Section 4.8
+  title: Antiderivatives
+  images: [page-1.webp]
+- id: w1-2
+  label: Week 01 · Part 2 · Section 5.1
+  title: Riemann Sums
+  images: [page-1.webp]
+- id: w2-1
+  label: Week 02 · Part 1 · Sections 5.2–5.3
+  title: Finite Sums & Definite Integrals
+  images: [page-1.webp]
+- id: w2-2
+  label: Week 02 · Part 2 · Section 5.4
+  title: Fundamental Theorem of Calculus
+  images: [page-1.webp]
+- id: w3-1
+  label: Week 03 · Sections 5.5–5.6
+  title: Integration by Substitution
+  images: [page-1.webp]
+- id: m1
+  kind: review
+  label: Cumulative review · Sections 4.8–5.6 · 5 pages
+  title: Midterm 1 Review
+- id: w4-1
+  label: Week 04 · Part 1 · Section 5.6
+  title: Area Between Curves
+  images: [page-1.webp]
+- id: w4-2
+  label: Week 04 · Part 2 · Section 6.1
+  title: Volumes by the Disk Method
+  images: [page-1.webp]
+- id: w5-1
+  label: Week 05 · Part 1 · Section 6.2
+  title: Volumes by the Shell Method
+  images: [page-1.webp]
+- id: w5-2
+  label: Week 05 · Part 2 · Section 8.2
+  title: Integration by Parts
+  images: [page-1.webp]
+- id: w6-1
+  label: Week 06 · Part 1 · Section 8.3
+  title: Powers & Products of Trigonometric Functions
+  images: [page-1.webp]
+- id: w6-2
+  label: Week 06 · Part 2 · Section 8.4
+  title: Trigonometric Substitutions
+  images: [page-1.webp]
+- id: w7-1
+  label: Week 07 · Part 1 · Sections 8.4–8.5
+  title: Trigonometric Substitutions & Partial Fractions
+  images: [page-1.webp, page-2.webp]
+- id: w7-2
+  label: Week 07 · Part 2 · Section 8.5
+  title: Partial Fractions
+  images: [page-1.webp]
+- id: m2
+  kind: review
+  label: Cumulative review · Sections 5.6–6.2 & 8.2–8.5 · 9 pages
+  title: Midterm 2 Review
+- id: w8-2
+  label: Week 08 · Sections 7.5 & 8.5
+  title: Partial Fractions & L'Hôpital's Rule
+  images: [page-1.webp]
+- id: w9-1
+  label: Week 09 · Section 8.8
+  title: Improper Integrals
+  images: [page-1.webp]
+- id: m3
+  kind: review
+  label: Cumulative review · Sections 10.1–10.6 · 12 pages
+  title: Midterm 3 Review
+- id: w13-1
+  label: Week 13 · Part 1 · Section 10.7
+  title: Power Series
+  images: [page-1.webp]
+- id: w13-2
+  label: Week 13 · Part 2 · Sections 10.8–10.9
+  title: Taylor Polynomials
+  images: [page-1.webp]
+- id: w14-1
+  label: Week 14 · Sections 10.8–10.9
+  title: Taylor Polynomials
+  images: [page-1.webp]
+- id: w15-1
+  label: Week 15 · Sections 10.8–10.9
+  title: Taylor Polynomials
+  images: [page-1.webp, page-2.webp]
+- id: m4
+  kind: review
+  label: Cumulative review · Sections 10.7–10.9 · 5 pages
+  title: Midterm 4 Review
+- id: all
+  kind: complete
+  label: Complete collection · 31 pages
+  title: Complete Studio Notes

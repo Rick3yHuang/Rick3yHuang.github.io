@@ -183,7 +183,7 @@ title: Home
   <div class="section-body timeline-section-body">
     <div class="timeline-list activities-timeline">
       {% for event in site.data.activities limit:5 %}
-        <div class="timeline-entry">
+        <div class="timeline-entry activity-entry activity-entry--{{ event.type | slugify }}">
           <time class="timeline-date" datetime="{{ event.date }}">{{ event.date_label }}</time>
           <article class="activity-card">
             <div class="activity-card__meta">
@@ -249,7 +249,7 @@ title: Home
       <div class="timeline-entry">
         <time class="timeline-date">Summer 2025</time>
         <div class="teaching-card-group">
-          <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/' | relative_url }}">
+          <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/summer-2025/' | relative_url }}">
             <div class="teaching-card__heading">
               <span class="teaching-card__code">MATH 1553</span>
               <span class="teaching-card__role">Role · Studio TA</span>

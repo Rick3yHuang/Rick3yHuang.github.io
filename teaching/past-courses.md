@@ -9,28 +9,7 @@ permalink: /teaching/experiences/
   <p class="page-intro__eyebrow">Teaching archive</p>
   <h1>Teaching Experiences</h1>
   <p>Courses, grading, and undergraduate research mentoring.</p>
-  <nav class="teaching-quick-links" aria-label="Teaching locations and student resources">
-    <a href="https://www.google.com/maps/place/Groseclose+Building/@33.7757752,-84.4044626,17z/data=!3m1!4b1!4m6!3m5!1s0x88f505e3285ac2ab:0xf5faf62de6942988!8m2!3d33.7757752!4d-84.4018877!16s%2Fg%2F11g19zx5yh!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
-      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s6-5.5 6-11a6 6 0 1 0-12 0c0 5.5 6 11 6 11Z"/><circle cx="12" cy="10" r="2"/></svg>
-      <span><small>Office</small><strong>Groseclose 317</strong></span>
-    </a>
-    <a href="https://www.google.com/maps/place/Clough+Undergraduate+Learning+Commons/@33.7749203,-84.3989897,17z/data=!3m2!4b1!5s0x88f504620fdf5207:0xfe60772932020a8d!4m6!3m5!1s0x88f50489e24c4cc7:0x2f07c28c3abda31b!8m2!3d33.7749203!4d-84.3964148!16s%2Fm%2F0bmh8t0!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
-      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s6-5.5 6-11a6 6 0 1 0-12 0c0 5.5 6 11 6 11Z"/><circle cx="12" cy="10" r="2"/></svg>
-      <span><small>Office hours · Math Lab</small><strong>Clough 280</strong></span>
-    </a>
-    <a href="https://math.gatech.edu/undergraduate/tutors-and-labs" target="_blank" rel="noopener noreferrer">
-      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4Z"/><path d="M8 16h11M9 8h6M9 11h6"/></svg>
-      <span><small>Student resources</small><strong>Math Labs &amp; Tutors</strong></span>
-    </a>
-    <div class="teaching-quick-link teaching-quick-link--hours">
-      <picture class="teaching-quick-link__cocona" aria-hidden="true">
-        <source media="(prefers-reduced-motion: reduce)" srcset="{{ '/assets/images/cocona-running.png' | relative_url }}">
-        <source srcset="{{ '/assets/images/cocona-running.webp' | relative_url }}" type="image/webp">
-        <img src="{{ '/assets/images/cocona-running.gif' | relative_url }}" alt="">
-      </picture>
-      <span><small>Office hours</small><strong>TBA</strong></span>
-    </div>
-  </nav>
+  {% include teaching-quick-links.html %}
 </header>
 
 <section class="activities-archive" aria-labelledby="past-courses-title">
@@ -56,7 +35,7 @@ permalink: /teaching/experiences/
     <div class="timeline-entry">
       <time class="timeline-date">Summer 2025</time>
       <div class="teaching-card-group">
-        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/' | relative_url }}">
+        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/summer-2025/' | relative_url }}">
           <div class="teaching-card__heading">
             <span class="teaching-card__code">MATH 1553</span>
             <span class="teaching-card__role">Role · Studio TA</span>
@@ -154,7 +133,7 @@ permalink: /teaching/experiences/
     <div class="timeline-entry">
       <time class="timeline-date">Fall 2022</time>
       <div class="teaching-card-group">
-        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/' | relative_url }}">
+        <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/fall-2022/' | relative_url }}">
           <div class="teaching-card__heading">
             <span class="teaching-card__code">MATH 1553</span>
             <span class="teaching-card__role">Role · Studio TA</span>
