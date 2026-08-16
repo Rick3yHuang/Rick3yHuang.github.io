@@ -49,8 +49,28 @@ permalink: /publications/
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-2.84 17.54c.45.08.62-.2.62-.44v-1.59c-2.54.55-3.07-1.08-3.07-1.08-.42-1.06-1.02-1.35-1.02-1.35-.83-.57.06-.56.06-.56.92.06 1.4.94 1.4.94.82 1.4 2.15 1 2.67.76.08-.59.32-1 .58-1.22-2.03-.23-4.16-1.02-4.16-4.46 0-.99.35-1.79.94-2.42-.09-.23-.41-1.16.08-2.39 0 0 .77-.25 2.48.92A8.63 8.63 0 0 1 12 8.35a8.54 8.54 0 0 1 2.26.3c1.72-1.17 2.48-.92 2.48-.92.49 1.23.17 2.16.08 2.39.59.63.94 1.43.94 2.42 0 3.45-2.14 4.23-4.17 4.45.33.28.62.84.62 1.68v2.38c0 .24.16.53.63.44A9 9 0 0 0 12 3z"/></svg>
             GitHub repo
           </a>
+          <button class="citation-action citation-action--cite" type="button" aria-expanded="false" aria-controls="citation-periodic">Cite</button>
           <a class="publication-entry__detail" href="{{ '/research/periodic-orbits/' | relative_url }}">Project details <span aria-hidden="true">→</span></a>
         </nav>
+        <div class="citation-panel" id="citation-periodic" hidden>
+          <div class="citation-panel__header">
+            <p>Ruiqi Huang and Anton Leykin. “Approximating Periodic Orbits with Algebraic Curves and Related Minimal Problems.” Accepted manuscript, 2026.</p>
+          </div>
+          <div class="citation-code">
+            <button class="citation-copy" type="button" data-bibtex-id="bibtex-periodic" aria-label="Copy BibTeX" title="Copy BibTeX">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="11" rx="1.5"/><path d="M16 8V6.5A1.5 1.5 0 0 0 14.5 5h-9A1.5 1.5 0 0 0 4 6.5v9A1.5 1.5 0 0 0 5.5 17H8"/></svg>
+            </button>
+            <pre><code id="bibtex-periodic">@misc{huang2026periodic,
+  title        = {Approximating Periodic Orbits with Algebraic Curves and Related Minimal Problems},
+  author       = {Huang, Ruiqi and Leykin, Anton},
+  year         = {2026},
+  eprint       = {2604.26332},
+  archivePrefix = {arXiv},
+  primaryClass = {math.AG},
+  note         = {Accepted manuscript}
+}</code></pre>
+          </div>
+        </div>
       </article>
     </li>
     <li class="publication-item timeline-entry">
@@ -71,8 +91,30 @@ permalink: /publications/
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4c3.2 2.5 6.8 13.5 10 16M17 4C13.8 6.5 10.2 17.5 7 20"/></svg>
             arXiv
           </a>
+          <button class="citation-action citation-action--cite" type="button" aria-expanded="false" aria-controls="citation-iod">Cite</button>
           <a class="publication-entry__detail" href="{{ '/research/initial-orbit-determination/' | relative_url }}">Project details <span aria-hidden="true">→</span></a>
         </nav>
+        <div class="citation-panel" id="citation-iod" hidden>
+          <div class="citation-panel__header">
+            <p>Ruiqi Huang, Anton Leykin, and Michela Mancini. “Projective Plane Subdivision Method for Initial Orbit Determination.” In <em>Computer Algebra in Scientific Computing</em>, pp. 98–117. Springer, 2026.</p>
+          </div>
+          <div class="citation-code">
+            <button class="citation-copy" type="button" data-bibtex-id="bibtex-iod" aria-label="Copy BibTeX" title="Copy BibTeX">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="11" rx="1.5"/><path d="M16 8V6.5A1.5 1.5 0 0 0 14.5 5h-9A1.5 1.5 0 0 0 4 6.5v9A1.5 1.5 0 0 0 5.5 17H8"/></svg>
+            </button>
+            <pre><code id="bibtex-iod">@inproceedings{huang2026projective,
+  title     = {Projective Plane Subdivision Method for Initial Orbit Determination},
+  author    = {Huang, Ruiqi and Leykin, Anton and Mancini, Michela},
+  booktitle = {Computer Algebra in Scientific Computing},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16235},
+  pages     = {98--117},
+  publisher = {Springer},
+  year      = {2026},
+  doi       = {10.1007/978-3-032-09645-6_6}
+}</code></pre>
+          </div>
+        </div>
       </article>
     </li>
   </ol>

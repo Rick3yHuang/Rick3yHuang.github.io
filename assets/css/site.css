@@ -11,6 +11,420 @@ html {
   scroll-padding-top: 6rem;
 }
 
+/* Theme control and publication citation tools */
+.theme-toggle {
+  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  flex: 0 0 auto;
+  place-items: center;
+  color: var(--blue-dark);
+  background: transparent;
+  border: 1px solid var(--blue-border);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  color: var(--blue);
+  background: var(--blue-soft);
+  border-color: var(--blue);
+}
+
+.theme-toggle svg {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.theme-toggle__sun,
+[data-theme="dark"] .theme-toggle__moon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle__sun {
+  display: block;
+}
+
+.citation-action {
+  display: inline-flex;
+  min-height: 1.75rem;
+  padding: 0.28rem 0.52rem;
+  align-items: center;
+  color: #31566f;
+  background: transparent;
+  border: 0;
+  border-left: 1px solid var(--blue-border);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.63rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.citation-action:hover,
+.citation-action:focus-visible,
+.citation-action[aria-expanded="true"] {
+  color: var(--blue);
+  background: var(--blue-soft);
+}
+
+.citation-panel {
+  max-width: 48rem;
+  margin-top: 0.9rem;
+  padding: 0.85rem 1rem;
+  color: #4d6372;
+  background: rgba(237, 246, 252, 0.62);
+  border-left: 2px solid var(--blue);
+}
+
+.citation-panel[hidden] {
+  display: none;
+}
+
+.citation-panel p {
+  margin: 0;
+  font-size: 0.74rem;
+  line-height: 1.6;
+}
+
+.citation-panel__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.citation-panel__header p {
+  min-width: 0;
+}
+
+.citation-code {
+  position: relative;
+  margin-top: 0.75rem;
+}
+
+.citation-panel pre {
+  max-height: 13rem;
+  margin: 0;
+  padding: 0.75rem 3.25rem 0.75rem 0.75rem;
+  color: #28485e;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--blue-border);
+  overflow: auto;
+  font-size: 0.68rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.citation-copy {
+  position: absolute;
+  z-index: 1;
+  top: 0.55rem;
+  right: 0.55rem;
+  display: inline-grid;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  flex: 0 0 auto;
+  place-items: center;
+  color: #31566f;
+  background: rgba(237, 246, 252, 0.96);
+  border: 1px solid var(--blue-border);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.62rem;
+  font-weight: 750;
+}
+
+.citation-copy svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.citation-copy:hover,
+.citation-copy:focus-visible {
+  color: var(--blue);
+  background: #fff;
+}
+
+/* A deliberately tuned dark palette rather than a blanket color inversion. */
+[data-theme="dark"] {
+  --blue: #68b9f0;
+  --blue-dark: #9ed3f5;
+  --blue-soft: #172c3b;
+  --blue-border: #29485c;
+  color-scheme: dark;
+}
+
+[data-theme="dark"] body {
+  color: #dce6ec;
+  background: #101820;
+}
+
+[data-theme="dark"] .site-header {
+  background: rgba(16, 24, 32, 0.9);
+  border-bottom-color: rgba(196, 220, 235, 0.15);
+}
+
+[data-theme="dark"] .content-section::before {
+  background: #101820;
+}
+
+[data-theme="dark"] #education::before,
+[data-theme="dark"] #activities::before {
+  background: #121f29;
+}
+
+[data-theme="dark"] .hero__about,
+[data-theme="dark"] .activity-card,
+[data-theme="dark"] .teaching-card,
+[data-theme="dark"] .research-card,
+[data-theme="dark"] .education-card {
+  background-color: #15232d;
+}
+
+[data-theme="dark"] .hero__about h2 {
+  background: #101820;
+}
+
+[data-theme="dark"] .section-heading h2,
+[data-theme="dark"] .page-intro h1,
+[data-theme="dark"] .course-section__heading h2,
+[data-theme="dark"] .page-intro,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2 {
+  color: #edf4f7;
+}
+
+[data-theme="dark"] .activity-card h3,
+[data-theme="dark"] .teaching-card h3,
+[data-theme="dark"] .research-card h3,
+[data-theme="dark"] .publication-entry h3,
+[data-theme="dark"] .research-detail h1,
+[data-theme="dark"] .course-hero h1,
+[data-theme="dark"] .course-note__title,
+[data-theme="dark"] .course-note-index a,
+[data-theme="dark"] .course-external-resources a,
+[data-theme="dark"] .course-complete-notes,
+[data-theme="dark"] .course-archive__terms strong {
+  color: #d9edf8;
+}
+
+[data-theme="dark"] .section-item p,
+[data-theme="dark"] .activity-card__venue,
+[data-theme="dark"] .activity-card__location,
+[data-theme="dark"] .teaching-card__institution,
+[data-theme="dark"] .research-card p,
+[data-theme="dark"] .research-detail__lead,
+[data-theme="dark"] .research-detail__copy p,
+[data-theme="dark"] .page-intro > p:not(.page-intro__eyebrow),
+[data-theme="dark"] .course-hero__lede,
+[data-theme="dark"] .publication-entry__authors,
+[data-theme="dark"] .publication-entry__venue,
+[data-theme="dark"] .timeline-date,
+[data-theme="dark"] .site-footer {
+  color: #a9bbc6;
+}
+
+[data-theme="dark"] .publication-entry__authors strong {
+  color: #d5e4eb;
+}
+
+[data-theme="dark"] .timeline-entry::before {
+  background: #101820;
+}
+
+[data-theme="dark"] .timeline-entry--publication::before,
+[data-theme="dark"] .activities-current::before {
+  background: var(--blue);
+}
+
+[data-theme="dark"] .timeline-publication-link,
+[data-theme="dark"] .wip-note,
+[data-theme="dark"] .course-note,
+[data-theme="dark"] .course-note-index a,
+[data-theme="dark"] .course-external-resources a,
+[data-theme="dark"] .course-complete-notes,
+[data-theme="dark"] .course-archive__terms a:hover,
+[data-theme="dark"] .course-archive__terms a:focus-visible {
+  background: rgba(24, 43, 56, 0.8);
+}
+
+[data-theme="dark"] .timeline-publication-link:hover,
+[data-theme="dark"] .timeline-publication-link:focus-visible,
+[data-theme="dark"] .research-card:has(.research-card__project-link:hover),
+[data-theme="dark"] .research-card:has(.research-card__project-link:focus-visible) {
+  background: #193142;
+}
+
+[data-theme="dark"] .course-complete-notes--review {
+  color: #ead69b;
+  background: rgba(94, 71, 21, 0.3);
+  border-color: #806d38;
+}
+
+[data-theme="dark"] .course-complete-notes--complete {
+  background: rgba(30, 85, 119, 0.3);
+}
+
+[data-theme="dark"] .research-detail__figure,
+[data-theme="dark"] .research-card__media {
+  background-color: #162731;
+}
+
+[data-theme="dark"] .research-card__media--iod,
+[data-theme="dark"] .research-detail__figure--iod {
+  background: transparent;
+  border-color: #38586a;
+}
+
+[data-theme="dark"] .research-card__media--iod {
+  padding: 0.45rem;
+}
+
+[data-theme="dark"] .course-pdf-pages,
+[data-theme="dark"] .course-pdf-pages img {
+  background: #fff;
+}
+
+[data-theme="dark"] .education-card--gt {
+  color: #c9ddeb;
+  background-color: #14232e;
+  border-color: rgba(179, 163, 105, 0.58);
+}
+
+[data-theme="dark"] .education-card--wfu {
+  color: #dde3e7;
+  background-color: #17232b;
+  border-color: rgba(181, 148, 78, 0.62);
+}
+
+[data-theme="dark"] .education-card--gt::before,
+[data-theme="dark"] .education-card--wfu::before {
+  opacity: 0.2;
+  filter: saturate(0.55) brightness(0.72);
+}
+
+[data-theme="dark"] .education-card--gt .education-card__main h3 {
+  color: #c8b978;
+}
+
+[data-theme="dark"] .education-card--gt .education-card__degree,
+[data-theme="dark"] .education-card--gt .education-card__meta {
+  color: #c9ddeb;
+}
+
+[data-theme="dark"] .education-card--wfu .education-card__main h3 {
+  color: #c7a75f;
+}
+
+[data-theme="dark"] .education-card--wfu .education-card__degree {
+  color: #e2e7e9;
+}
+
+[data-theme="dark"] .education-card--wfu .education-card__minor,
+[data-theme="dark"] .education-card--wfu .education-card__meta,
+[data-theme="dark"] .education-card--wfu .education-card__meta time {
+  color: #b7c2c9;
+}
+
+[data-theme="dark"] .research-link--github {
+  --resource-color: #cbd5dc;
+  --resource-bg: rgba(203, 213, 220, 0.08);
+}
+
+[data-theme="dark"] .teaching-card {
+  --role-bg: #183348;
+  --role-border: #315e7b;
+  --role-text: #8fc3e1;
+}
+
+[data-theme="dark"] .teaching-card--head-ta {
+  --role-bg: #252d4a;
+  --role-border: #4c5b91;
+  --role-text: #aab5df;
+}
+
+[data-theme="dark"] .teaching-card--grader {
+  --role-bg: #372d1d;
+  --role-border: #735b30;
+  --role-text: #d3b579;
+}
+
+[data-theme="dark"] .teaching-card--mentor {
+  --role-bg: #1c342c;
+  --role-border: #396a59;
+  --role-text: #9bc8b7;
+}
+
+[data-theme="dark"] .citation-action {
+  color: #a9c5d5;
+}
+
+[data-theme="dark"] .citation-panel {
+  color: #b9cad4;
+  background: rgba(24, 45, 59, 0.72);
+}
+
+[data-theme="dark"] .citation-panel pre {
+  color: #cbe3f0;
+  background: #101a21;
+}
+
+[data-theme="dark"] .citation-copy {
+  color: #b9d3e2;
+  background: #172c3b;
+  border-color: #365a70;
+}
+
+[data-theme="dark"] .citation-copy:hover,
+[data-theme="dark"] .citation-copy:focus-visible {
+  color: #d6edfa;
+  background: #1e3748;
+}
+
+[data-theme="dark"] .site-footer {
+  border-top-color: rgba(196, 220, 235, 0.15);
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    position: sticky;
+    padding-right: 2.8rem;
+  }
+
+  .theme-toggle {
+    position: absolute;
+    top: 0.75rem;
+    right: 0;
+  }
+
+  .publication-entry__links {
+    gap: 0.35rem;
+  }
+
+  .citation-action {
+    border: 1px solid var(--blue-border);
+  }
+
+  .citation-panel {
+    padding-inline: 0.75rem;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -1180,6 +1594,11 @@ a.research-link:focus-visible {
 .research-card__media--portrait > img {
   height: auto;
   max-height: 14.5rem;
+}
+
+.research-card__media--iod > img {
+  width: 100%;
+  height: auto;
 }
 
 .page-intro {

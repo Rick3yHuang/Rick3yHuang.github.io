@@ -156,8 +156,8 @@ title: Home
               </a>
             </nav>
           </div>
-          <div class="research-card__media research-card__media--filled">
-            <img src="{{ '/assets/images/IOD-Concept_Illustration-transparent.png' | relative_url }}" alt="Concept illustration of candidate orbital planes, showing the origin at one focus and alternative planes whose foci are not at the origin">
+          <div class="research-card__media research-card__media--filled research-card__media--iod">
+            <img src="{{ '/assets/images/iod-concept.svg' | relative_url }}?v=iod-4" alt="Concept illustration of candidate orbital planes, showing the origin at one focus and alternative planes whose foci are not at the origin">
           </div>
         </article>
       </div>
