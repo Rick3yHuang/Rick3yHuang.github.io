@@ -93,6 +93,10 @@ title: Home
         <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 9v7M9 6.5v.01M12 9h2a3 3 0 0 1 3 3v4M12 16V9"/></svg>
         ORCID
       </a>
+      <a class="research-profile" href="https://macaulay2.com/" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16v12H4zM7 10l2 2-2 2M11 15h5"/></svg>
+        Macaulay2
+      </a>
     </nav>
   </header>
   <div class="section-body research-overview timeline-section-body">
@@ -226,14 +230,88 @@ title: Home
     <span class="section-number" aria-hidden="true">04</span>
     <h2>Teaching</h2>
   </header>
-  <div class="section-body">
-    <p>I have served as a graduate teaching assistant at Georgia Tech for the following courses:</p>
-    <ul class="section-list">
-      <li><a href="{{ '/teaching/math-1553/' | relative_url }}"><strong>MATH 1553</strong> — Introduction to Linear Algebra</a></li>
-      <li><a href="{{ '/teaching/math-1554/' | relative_url }}"><strong>MATH 1554</strong> — Linear Algebra I</a></li>
-      <li><a href="{{ '/teaching/math-2551/' | relative_url }}"><strong>MATH 2551</strong> — Multivariable Calculus</a></li>
-      <li><a href="{{ '/teaching/math-1552/' | relative_url }}"><strong>MATH 1552</strong> — Integral Calculus</a></li>
-    </ul>
-    <a class="section-link" href="{{ '/teaching/' | relative_url }}">View all teaching materials <span aria-hidden="true">→</span></a>
+  <div class="section-body timeline-section-body">
+    <div class="timeline-list teaching-timeline">
+      <div class="timeline-entry">
+        <time class="timeline-date">Fall 2026</time>
+        <div class="teaching-card-group">
+          <a class="teaching-card teaching-card--head-ta" href="{{ '/teaching/math-1553/' | relative_url }}">
+            <div class="teaching-card__heading">
+              <span class="teaching-card__code">MATH 1553</span>
+              <span class="teaching-card__role">Role · Head TA / Studio TA</span>
+            </div>
+            <h3>Introduction to Linear Algebra</h3>
+            <p class="teaching-card__institution">Georgia Institute of Technology</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <time class="timeline-date">Summer 2025</time>
+        <div class="teaching-card-group">
+          <a class="teaching-card teaching-card--ta" href="{{ '/teaching/math-1553/' | relative_url }}">
+            <div class="teaching-card__heading">
+              <span class="teaching-card__code">MATH 1553</span>
+              <span class="teaching-card__role">Role · Studio TA</span>
+            </div>
+            <h3>Introduction to Linear Algebra</h3>
+            <p class="teaching-card__institution">Georgia Institute of Technology</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <time class="timeline-date">Fall 2024</time>
+        <div class="teaching-card-group">
+          <a class="teaching-card teaching-card--head-ta" href="{{ '/teaching/math-1554/' | relative_url }}">
+            <div class="teaching-card__heading">
+              <span class="teaching-card__code">MATH 1554</span>
+              <span class="teaching-card__role">Role · Head TA / Studio TA</span>
+            </div>
+            <h3>Linear Algebra I</h3>
+            <p class="teaching-card__institution">Georgia Institute of Technology</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <time class="timeline-date">Fall 2024</time>
+        <div class="teaching-card-group">
+          <article class="teaching-card teaching-card--grader">
+            <div class="teaching-card__heading">
+              <span class="teaching-card__code">MATH 4803</span>
+              <span class="teaching-card__role">Role · Grader</span>
+            </div>
+            <h3>Nonlinear Algebra</h3>
+            <p class="teaching-card__institution">Georgia Institute of Technology</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <time class="timeline-date">Fall 2024</time>
+        <div class="teaching-card-group">
+          <article class="teaching-card teaching-card--grader">
+            <div class="teaching-card__heading">
+              <span class="teaching-card__code">MATH 4782</span>
+              <span class="teaching-card__role">Role · Grader</span>
+            </div>
+            <h3>Quantum Information and Quantum Computing</h3>
+            <p class="teaching-card__institution">Georgia Institute of Technology</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="timeline-entry timeline-entry--publication teaching-materials-link">
+        <span class="timeline-date" aria-hidden="true"></span>
+        <a class="timeline-publication-link" href="{{ '/teaching/experiences/' | relative_url }}">
+          <span>
+            <strong>All teaching experiences</strong>
+            <small>Courses, grading, and undergraduate mentoring</small>
+          </span>
+          <span class="timeline-publication-link__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
