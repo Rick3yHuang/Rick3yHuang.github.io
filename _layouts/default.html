@@ -49,6 +49,15 @@
     <link rel="icon" href="{{ '/assets/images/branding/favicon.ico' | relative_url }}" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/branding/favicon-32.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/images/branding/apple-touch-icon.png' | relative_url }}">
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
     <script>
       (() => {
         const savedTheme = localStorage.getItem("theme");
