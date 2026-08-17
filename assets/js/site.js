@@ -73,6 +73,7 @@ document.querySelectorAll(".citation-copy").forEach((button) => {
 });
 
 const themeToggle = document.querySelector(".theme-toggle");
+const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
 const siteNavToggle = document.querySelector(".site-nav-toggle");
 const primaryNavigation = document.getElementById("primary-navigation");
 
@@ -124,12 +125,18 @@ function updateThemeButton() {
   themeToggle.setAttribute("aria-pressed", String(dark));
 }
 
+function applySystemTheme(event = systemTheme) {
+  document.documentElement.dataset.theme = event.matches ? "dark" : "light";
+  updateThemeButton();
+}
+
 if (themeToggle) {
   updateThemeButton();
   themeToggle.addEventListener("click", () => {
     const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = nextTheme;
-    localStorage.setItem("theme", nextTheme);
     updateThemeButton();
   });
 }
+
+systemTheme.addEventListener("change", applySystemTheme);

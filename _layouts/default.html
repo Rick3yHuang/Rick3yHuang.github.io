@@ -60,9 +60,8 @@
     {% endif %}
     <script>
       (() => {
-        const savedTheme = localStorage.getItem("theme");
-        const theme = savedTheme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-        document.documentElement.dataset.theme = theme;
+        const systemTheme = matchMedia("(prefers-color-scheme: dark)");
+        document.documentElement.dataset.theme = systemTheme.matches ? "dark" : "light";
       })();
     </script>
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
