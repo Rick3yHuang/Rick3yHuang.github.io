@@ -3065,6 +3065,10 @@ td {
   background: rgba(229, 241, 249, 0.72);
 }
 
+.current-course-card--announcements {
+  grid-column: 1 / -1;
+}
+
 .current-course-card__topline {
   display: flex;
   align-items: center;

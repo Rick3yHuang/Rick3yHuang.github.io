@@ -12,47 +12,46 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <div class="current-course-card__topline">
-      <p class="current-course-card__label">This week</p>
-      <span>Preparing</span>
-    </div>
-    <h2>Studio page preparation</h2>
-    <p>The Week 01 topic and materials will appear here when the course schedule is finalized.</p>
-    <a href="#weekly-notes">View weekly notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 8/24/2026–8/28/2026</p>
+    <h2>Systems of Linear Equations &amp; Row Reduction</h2>
+    <a href="#weekly-notes">View Week 01 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
-    <p class="current-course-card__label">Next Studio</p>
+    <p class="current-course-card__label">Studio · Section J03</p>
     <h3>Fridays, 3:30–4:20 PM</h3>
-    <span>Studio and location: TBA</span>
+    <a href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
   </article>
 
   <article class="current-course-card">
     <p class="current-course-card__label">Office Hours</p>
-    <h3>Time: TBA</h3>
+    <h3>Fridays, 1:30–2:30 PM</h3>
     <a href="https://www.google.com/maps/place/Clough+Undergraduate+Learning+Commons/@33.7749203,-84.3989897,17z/data=!3m2!4b1!5s0x88f504620fdf5207:0xfe60772932020a8d!4m6!3m5!1s0x88f50489e24c4cc7:0x2f07c28c3abda31b!8m2!3d33.7749203!4d-84.3964148!16s%2Fm%2F0bmh8t0!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Math Lab · Clough 280 <span aria-hidden="true">↗</span></a>
   </article>
 
-  <article class="current-course-card">
-    <p class="current-course-card__label">Latest Announcement</p>
-    <h3>Studio page in preparation</h3>
-    <span>Details will be updated before the first week of studio.</span>
+  <article class="current-course-card current-course-card--announcements">
+    <p class="current-course-card__label">Announcements</p>
+    <h3>First in-studio quiz (Quiz 2) · September 11</h3>
   </article>
-
-  <article class="current-course-card">
-    <p class="current-course-card__label">Latest Notes</p>
-    <h3>Weekly notes coming soon</h3>
-    <a href="#weekly-notes">Go to notes <span aria-hidden="true">↓</span></a>
-  </article>
-
-  <a class="current-course-dashboard__resource" href="https://math.gatech.edu/undergraduate/tutors-and-labs" target="_blank" rel="noopener noreferrer">
-    Math Labs &amp; Tutors <span aria-hidden="true">↗</span>
-  </a>
 </section>
 
 <section class="course-section" id="weekly-notes">
   <div class="course-section__heading"><p>01</p><h2>Weekly Notes</h2></div>
-  {% include wip-cocona.html text="WIP · Weekly notes are being prepared." %}
+
+  <details class="course-note">
+    <summary>
+      <span class="course-note__week">Week 01 · Sections 1.1–1.2</span>
+      <span class="course-note__title">Systems of Linear Equations &amp; Row Reduction</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      <figure class="course-pdf-pages" aria-label="Week 01 handwritten notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-1.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes introducing systems of linear equations, solution sets, and consistent and inconsistent systems.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-2.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes converting a system to an augmented matrix and defining row echelon form.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-3.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes defining pivots and comparing row echelon form with reduced row echelon form.">
+      </figure>
+    </div>
+  </details>
 </section>
 
 <section class="course-section" id="resources">
