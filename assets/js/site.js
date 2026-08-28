@@ -1,9 +1,9 @@
-const emailButton = document.querySelector(".email-copy");
+const emailButtons = document.querySelectorAll(".email-copy");
 const copyToast = document.querySelector(".copy-toast");
 let toastTimer;
 
-async function copyEmail() {
-  const email = emailButton.dataset.email;
+async function copyEmail(event) {
+  const email = event.currentTarget.dataset.email;
 
   try {
     await navigator.clipboard.writeText(email);
@@ -26,8 +26,8 @@ async function copyEmail() {
   }, 2400);
 }
 
-if (emailButton && copyToast) {
-  emailButton.addEventListener("click", copyEmail);
+if (copyToast) {
+  emailButtons.forEach((button) => button.addEventListener("click", copyEmail));
 }
 
 function showToast(message) {

@@ -8,6 +8,11 @@ permalink: /teaching/math-1553/
   <p class="course-hero__eyebrow">MATH 1553 · Fall 2026</p>
   <h1>Introduction to Linear Algebra</h1>
   <p class="course-hero__lede">Current course information, weekly materials, and student resources.</p>
+  <button class="course-hero__email email-copy" type="button" data-email="rhuang346@gatech.edu" data-copy-label="Click to copy" aria-label="Copy email address: rhuang346@gatech.edu">
+    <span>Email</span>
+    <strong>rhuang346@gatech.edu</strong>
+    <span class="course-hero__email-action">Copy</span>
+  </button>
 </header>
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">

@@ -3033,6 +3033,59 @@ td {
   white-space: nowrap;
 }
 
+.course-hero__email {
+  position: relative;
+  display: inline-flex;
+  margin-top: 1rem;
+  padding: 0.55rem 0.75rem;
+  align-items: center;
+  gap: 0.65rem;
+  color: #294b62;
+  background: rgba(229, 241, 249, 0.45);
+  border: 1px solid var(--blue-border);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  transition: color 150ms ease, background 150ms ease, border-color 150ms ease;
+}
+
+.course-hero__email:hover,
+.course-hero__email:focus-visible {
+  color: var(--blue);
+  background: rgba(229, 241, 249, 0.78);
+  border-color: var(--blue);
+}
+
+.course-hero__email::before {
+  content: attr(data-copy-label);
+}
+
+.course-hero__email > span:first-child,
+.course-hero__email-action {
+  color: #718492;
+  font-size: 0.6rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.course-hero__email strong {
+  color: inherit;
+  font-size: 0.82rem;
+}
+
+.course-hero__email-action {
+  padding-left: 0.65rem;
+  color: var(--blue);
+  border-left: 1px solid var(--blue-border);
+}
+
+[data-theme="dark"] .course-hero__email {
+  color: #d9edf8;
+  background: #152630;
+  border-color: #35566a;
+}
+
 .current-course-dashboard {
   display: grid;
   width: 100%;
