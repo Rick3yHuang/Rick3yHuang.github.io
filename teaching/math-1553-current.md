@@ -36,14 +36,35 @@ permalink: /teaching/math-1553/
 
   <article class="current-course-card current-course-card--announcements">
     <p class="current-course-card__label">Announcements</p>
-    <h3>First in-studio quiz (Quiz 2) · September 11</h3>
+    <div class="current-course-announcements" data-scroll-next tabindex="0" aria-label="Course announcements, ordered chronologically">
+      <div class="current-course-announcement" data-event-end="2026-08-28T16:20:00">
+        <time datetime="2026-08-28T15:30">August 28 · 3:30–4:20 PM</time>
+        <h3>Studio</h3>
+        <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-04T14:30:00">
+        <time datetime="2026-09-04T13:30">September 4 · 1:30–2:30 PM</time>
+        <h3>Office hour</h3>
+        <a class="current-course-announcement__location" href="https://www.google.com/maps/place/Clough+Undergraduate+Learning+Commons/@33.7749203,-84.3989897,17z/data=!3m2!4b1!5s0x88f504620fdf5207:0xfe60772932020a8d!4m6!3m5!1s0x88f50489e24c4cc7:0x2f07c28c3abda31b!8m2!3d33.7749203!4d-84.3964148!16s%2Fm%2F0bmh8t0!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Clough 280 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-04T16:20:00">
+        <time datetime="2026-09-04T15:30">September 4 · 3:30–4:20 PM</time>
+        <h3>Studio</h3>
+        <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-11T23:59:59">
+        <time datetime="2026-09-11T23:59:59">September 11</time>
+        <h3>In-studio quiz (Quiz 2)</h3>
+        <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
   </article>
 </section>
 
-<section class="course-section" id="weekly-notes">
+<section class="course-section" id="weekly-notes" data-latest-first>
   <div class="course-section__heading"><p>01</p><h2>Weekly Notes</h2></div>
 
-  <details class="course-note">
+  <details class="course-note" open>
     <summary>
       <span class="course-note__week">Week 01 · Sections 1.1–1.2</span>
       <span class="course-note__title">Systems of Linear Equations &amp; Row Reduction</span>
@@ -54,6 +75,7 @@ permalink: /teaching/math-1553/
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-1.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes introducing systems of linear equations, solution sets, and consistent and inconsistent systems.">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-2.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes converting a system to an augmented matrix and defining row echelon form.">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-3.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes defining pivots and comparing row echelon form with reduced row echelon form.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-4.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes listing elementary row operations and the row-reduction procedure for reaching REF and RREF.">
       </figure>
     </div>
   </details>

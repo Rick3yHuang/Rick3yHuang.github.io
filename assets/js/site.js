@@ -72,6 +72,31 @@ document.querySelectorAll(".citation-copy").forEach((button) => {
   });
 });
 
+const currentCourseNotes = document.querySelectorAll("[data-latest-first] .course-note");
+
+currentCourseNotes.forEach((note, index) => {
+  note.open = index === 0;
+});
+
+document.querySelectorAll("[data-scroll-next]").forEach((list) => {
+  const now = new Date();
+  const events = [...list.querySelectorAll(".current-course-announcement")];
+
+  events.forEach((event) => {
+    const end = new Date(event.dataset.eventEnd);
+    const isPast = !Number.isNaN(end.getTime()) && end < now;
+    event.classList.toggle("is-past", isPast);
+  });
+
+  const nextEvent = events.find((event) => !event.classList.contains("is-past")) || events.at(-1);
+
+  if (nextEvent) {
+    window.requestAnimationFrame(() => {
+      list.scrollTop = nextEvent.offsetTop;
+    });
+  }
+});
+
 const themeToggle = document.querySelector(".theme-toggle");
 const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
 const siteNavToggle = document.querySelector(".site-nav-toggle");
