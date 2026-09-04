@@ -96,7 +96,7 @@
       {{ content }}
     </main>
     <footer class="site-footer">
-      <p>© 2026 Ruiqi Huang <span aria-hidden="true">·</span> Last updated August 2026</p>
+      <p>© 2026 Ruiqi Huang <span aria-hidden="true">·</span> Last updated {{ site.time | date: "%B %-d, %Y" }}</p>
     </footer>
     <div class="copy-toast" role="status" aria-live="polite" aria-atomic="true"></div>
     <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

@@ -38,29 +38,24 @@ permalink: /teaching/math-1553/
     <p class="current-course-card__label">Announcements</p>
     <div class="current-course-announcements" data-scroll-next tabindex="0" aria-label="Course announcements, ordered chronologically">
       <div class="current-course-announcement" data-event-end="2026-08-28T16:20:00">
-        <time datetime="2026-08-28T15:30">August 28 · 3:30–4:20 PM</time>
+        <time datetime="2026-08-28">August 28</time>
         <h3>Studio</h3>
-        <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="current-course-announcement" data-event-end="2026-09-04T14:30:00">
-        <time datetime="2026-09-04T13:30">September 4 · 1:30–2:30 PM</time>
+        <time datetime="2026-09-04">September 4</time>
         <h3>Office hour</h3>
-        <a class="current-course-announcement__location" href="https://www.google.com/maps/place/Clough+Undergraduate+Learning+Commons/@33.7749203,-84.3989897,17z/data=!3m2!4b1!5s0x88f504620fdf5207:0xfe60772932020a8d!4m6!3m5!1s0x88f50489e24c4cc7:0x2f07c28c3abda31b!8m2!3d33.7749203!4d-84.3964148!16s%2Fm%2F0bmh8t0!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Clough 280 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="current-course-announcement" data-event-end="2026-09-04T16:20:00">
-        <time datetime="2026-09-04T15:30">September 4 · 3:30–4:20 PM</time>
+        <time datetime="2026-09-04">September 4</time>
         <h3>Studio — <span class="current-course-announcement__highlight">Syllabus quiz (quiz 1) due</span></h3>
-        <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="current-course-announcement" data-event-end="2026-09-11T14:30:00">
-        <time datetime="2026-09-11T13:30">September 11 · 1:30–2:30 PM</time>
+        <time datetime="2026-09-11">September 11</time>
         <h3>Office hour</h3>
-        <a class="current-course-announcement__location" href="https://www.google.com/maps/place/Clough+Undergraduate+Learning+Commons/@33.7749203,-84.3989897,17z/data=!3m2!4b1!5s0x88f504620fdf5207:0xfe60772932020a8d!4m6!3m5!1s0x88f50489e24c4cc7:0x2f07c28c3abda31b!8m2!3d33.7749203!4d-84.3964148!16s%2Fm%2F0bmh8t0!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Clough 280 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-09-11T16:20:00">
-        <time datetime="2026-09-11T15:30">September 11 · 3:30–4:20 PM</time>
+        <time datetime="2026-09-11">September 11</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 2)</span></h3>
-        <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </article>
@@ -93,7 +88,12 @@ permalink: /teaching/math-1553/
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
-      {% include wip-cocona.html text="Week 02 notes will be posted here." %}
+      <figure class="course-pdf-pages" aria-label="Week 02 handwritten notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-1.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes introducing augmented matrices and row echelon form.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-2.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes defining pivots and comparing row echelon form with reduced row echelon form.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-3.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes describing elementary row operations and the row-reduction procedure.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-4.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes defining free variables and explaining how to write a solution set in parametric form.">
+      </figure>
     </div>
   </details>
 </section>

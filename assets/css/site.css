@@ -3150,7 +3150,7 @@ td {
 
 .current-course-announcements {
   position: relative;
-  max-height: 11.05rem;
+  max-height: 8.55rem;
   margin-top: 0.35rem;
   padding-right: 0.5rem;
   overflow-y: auto;
@@ -3183,14 +3183,10 @@ td {
 
 .current-course-announcement {
   display: grid;
-  min-height: 4.4rem;
+  min-height: 3.4rem;
   padding: 0.55rem 0.2rem;
   align-content: center;
   gap: 0.12rem;
-}
-
-.current-course-announcement__location {
-  width: fit-content;
 }
 
 .current-course-announcement__highlight {
@@ -3212,7 +3208,6 @@ td {
 
 .current-course-announcement.is-past time,
 .current-course-announcement.is-past h3,
-.current-course-announcement.is-past .current-course-announcement__location,
 .current-course-announcement.is-past .current-course-announcement__highlight {
   color: #89949b;
 }
@@ -3233,7 +3228,6 @@ td {
 
 [data-theme="dark"] .current-course-announcement.is-past time,
 [data-theme="dark"] .current-course-announcement.is-past h3,
-[data-theme="dark"] .current-course-announcement.is-past .current-course-announcement__location,
 [data-theme="dark"] .current-course-announcement.is-past .current-course-announcement__highlight {
   color: #73838d;
 }
