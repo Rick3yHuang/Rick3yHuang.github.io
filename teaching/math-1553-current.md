@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 8/24/2026–8/28/2026</p>
-    <h2>Systems of Linear Equations &amp; Row Reduction</h2>
-    <a href="#weekly-notes">View Week 01 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 8/31/2026–9/4/2026</p>
+    <h2>Row Reduction &amp; Parametric Form</h2>
+    <a href="#weekly-notes">View Week 02 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -49,22 +49,28 @@ permalink: /teaching/math-1553/
       </div>
       <div class="current-course-announcement" data-event-end="2026-09-04T16:20:00">
         <time datetime="2026-09-04T15:30">September 4 · 3:30–4:20 PM</time>
-        <h3>Studio</h3>
+        <h3>Studio — <span class="current-course-announcement__highlight">Syllabus quiz (quiz 1) due</span></h3>
         <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="current-course-announcement" data-event-end="2026-09-11T23:59:59">
-        <time datetime="2026-09-11T23:59:59">September 11</time>
-        <h3>In-studio quiz (Quiz 2)</h3>
+      <div class="current-course-announcement" data-event-end="2026-09-11T14:30:00">
+        <time datetime="2026-09-11T13:30">September 11 · 1:30–2:30 PM</time>
+        <h3>Office hour</h3>
+        <a class="current-course-announcement__location" href="https://www.google.com/maps/place/Clough+Undergraduate+Learning+Commons/@33.7749203,-84.3989897,17z/data=!3m2!4b1!5s0x88f504620fdf5207:0xfe60772932020a8d!4m6!3m5!1s0x88f50489e24c4cc7:0x2f07c28c3abda31b!8m2!3d33.7749203!4d-84.3964148!16s%2Fm%2F0bmh8t0!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Clough 280 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-09-11T16:20:00">
+        <time datetime="2026-09-11T15:30">September 11 · 3:30–4:20 PM</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 2)</span></h3>
         <a class="current-course-announcement__location" href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </article>
 </section>
 
-<section class="course-section" id="weekly-notes" data-latest-first>
+<section class="course-section" id="weekly-notes">
   <div class="course-section__heading"><p>01</p><h2>Weekly Notes</h2></div>
+  <p class="course-notes-guidance"><span aria-hidden="true">+</span> Select a week and click the plus sign to view the notes.</p>
 
-  <details class="course-note" open>
+  <details class="course-note">
     <summary>
       <span class="course-note__week">Week 01 · Sections 1.1–1.2</span>
       <span class="course-note__title">Systems of Linear Equations &amp; Row Reduction</span>
@@ -77,6 +83,17 @@ permalink: /teaching/math-1553/
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-3.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes defining pivots and comparing row echelon form with reduced row echelon form.">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week01/page-4.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 01 notes listing elementary row operations and the row-reduction procedure for reaching REF and RREF.">
       </figure>
+    </div>
+  </details>
+
+  <details class="course-note">
+    <summary>
+      <span class="course-note__week">Week 02 · Sections 1.2–1.3</span>
+      <span class="course-note__title">Row Reduction &amp; Parametric Form</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      {% include wip-cocona.html text="Week 02 notes will be posted here." %}
     </div>
   </details>
 </section>

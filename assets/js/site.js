@@ -72,12 +72,6 @@ document.querySelectorAll(".citation-copy").forEach((button) => {
   });
 });
 
-const currentCourseNotes = document.querySelectorAll("[data-latest-first] .course-note");
-
-currentCourseNotes.forEach((note, index) => {
-  note.open = index === 0;
-});
-
 document.querySelectorAll("[data-scroll-next]").forEach((list) => {
   const now = new Date();
   const events = [...list.querySelectorAll(".current-course-announcement")];
