@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 8/31/2026–9/4/2026</p>
-    <h2>Row Reduction &amp; Parametric Form</h2>
-    <a href="#weekly-notes">View Week 02 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 9/7/2026–9/11/2026</p>
+    <h2>Vectors, Linear Combinations &amp; Spans</h2>
+    <a href="#weekly-notes">View Week 03 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -57,6 +57,14 @@ permalink: /teaching/math-1553/
         <time datetime="2026-09-11">September 11</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 2)</span></h3>
       </div>
+      <div class="current-course-announcement" data-event-end="2026-09-18T14:30:00">
+        <time datetime="2026-09-18">September 18</time>
+        <h3>Office hour</h3>
+      </div>
+      <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-09-18T16:20:00">
+        <time datetime="2026-09-18">September 18</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 3)</span></h3>
+      </div>
     </div>
   </article>
 </section>
@@ -93,6 +101,20 @@ permalink: /teaching/math-1553/
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-2.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes defining pivots and comparing row echelon form with reduced row echelon form.">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-3.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes describing elementary row operations and the row-reduction procedure.">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week02/page-4.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 02 notes defining free variables and explaining how to write a solution set in parametric form.">
+      </figure>
+    </div>
+  </details>
+
+  <details class="course-note">
+    <summary>
+      <span class="course-note__week">Week 03 · Sections 1.3–1.4</span>
+      <span class="course-note__title">Vectors, Linear Combinations &amp; Spans</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      <figure class="course-pdf-pages" aria-label="Week 03 handwritten notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week03/page-1.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 03 notes introducing vector addition, scalar multiplication, the parallelogram law, and linear combinations.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week03/page-2.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 03 notes defining vector equations and the span of a collection of vectors.">
       </figure>
     </div>
   </details>
