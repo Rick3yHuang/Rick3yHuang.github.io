@@ -18,7 +18,7 @@ permalink: /teaching/math-1553/
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
     <p class="current-course-card__label">Week 9/7/2026–9/11/2026</p>
-    <h2>Vectors, Linear Combinations &amp; Spans</h2>
+    <h2>Vectors &amp; Linear Combinations and Spans</h2>
     <a href="#weekly-notes">View Week 03 notes <span aria-hidden="true">↓</span></a>
   </article>
 
@@ -107,8 +107,8 @@ permalink: /teaching/math-1553/
 
   <details class="course-note">
     <summary>
-      <span class="course-note__week">Week 03 · Sections 1.3–1.4</span>
-      <span class="course-note__title">Vectors, Linear Combinations &amp; Spans</span>
+      <span class="course-note__week">Week 03 · Sections 2.1–2.2</span>
+      <span class="course-note__title">Vectors &amp; Linear Combinations and Spans</span>
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
