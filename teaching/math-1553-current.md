@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 9/7/2026–9/11/2026</p>
-    <h2>Vectors &amp; Linear Combinations and Spans</h2>
-    <a href="#weekly-notes">View Week 03 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 9/14/2026–9/18/2026</p>
+    <h2>Matrix Equations &amp; Solution Sets</h2>
+    <a href="#weekly-notes">View Week 04 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -64,6 +64,14 @@ permalink: /teaching/math-1553/
       <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-09-18T16:20:00">
         <time datetime="2026-09-18">September 18</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 3)</span></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-23T23:59:59">
+        <time datetime="2026-09-23">September 23</time>
+        <h3><span class="current-course-announcement__highlight">Midterm 1</span> — through Section 2.4</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-25T16:20:00">
+        <time datetime="2026-09-25">September 25</time>
+        <h3><span class="current-course-announcement__highlight">NO STUDIO, NO QUIZ</span></h3>
       </div>
     </div>
   </article>
@@ -118,6 +126,22 @@ permalink: /teaching/math-1553/
       </figure>
     </div>
   </details>
+
+  <details class="course-note">
+    <summary>
+      <span class="course-note__week">Week 04 · Sections 2.3–2.4</span>
+      <span class="course-note__title">Matrix Equations &amp; Solution Sets</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      {% include wip-cocona.html text="Week 04 notes will be posted here." %}
+    </div>
+  </details>
+
+  <div class="course-complete-notes course-complete-notes--review">
+    <span><small>Cumulative review · Through Section 2.4</small><strong>Midterm 1 Review</strong></span>
+    <em>WIP</em>
+  </div>
 </section>
 
 <section class="course-section" id="resources">
