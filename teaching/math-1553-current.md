@@ -65,9 +65,17 @@ permalink: /teaching/math-1553/
         <time datetime="2026-09-18">September 18</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 3)</span></h3>
       </div>
-      <div class="current-course-announcement" data-event-end="2026-09-23T23:59:59">
-        <time datetime="2026-09-23">September 23</time>
-        <h3><span class="current-course-announcement__highlight">Midterm 1</span> — through Section 2.4</h3>
+      <div class="current-course-announcement" data-event-end="2026-09-22T15:00:00">
+        <time datetime="2026-09-22T14:00:00">September 22 · 2:00–3:00 PM</time>
+        <h3>Extra office hour<br><a class="current-course-announcement__map" href="https://www.google.com/maps/place/Groseclose+Building/@33.7757751,-84.4067586,17z/data=!3m1!4b1!4m6!3m5!1s0x88f505e3285ac2ab:0xf5faf62de6942988!8m2!3d33.7757752!4d-84.4018877!16s%2Fg%2F11g19zx5yh!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Groseclose 335 <span aria-hidden="true">↗</span></a></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-23T19:45:00">
+        <time datetime="2026-09-23T18:30:00">Wednesday, September 23 · 6:30–7:45 PM</time>
+        <h3><span class="current-course-announcement__highlight">Midterm 1</span> — Sections 1.1–2.4<br><a class="current-course-announcement__map" href="https://www.google.com/maps/search/?api=1&amp;query=Instructional+Center%2C+Georgia+Tech" target="_blank" rel="noopener noreferrer">Instructional Center 103 <span aria-hidden="true">↗</span></a></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-09-25T14:30:00">
+        <time datetime="2026-09-25">September 25</time>
+        <h3>Office hour</h3>
       </div>
       <div class="current-course-announcement" data-event-end="2026-09-25T16:20:00">
         <time datetime="2026-09-25">September 25</time>
@@ -140,7 +148,9 @@ permalink: /teaching/math-1553/
 
   <div class="course-complete-notes course-complete-notes--review">
     <span><small>Cumulative review · Through Section 2.4</small><strong>Midterm 1 Review</strong></span>
-    <em>WIP</em>
+    <div class="course-complete-notes__wip">
+      {% include wip-cocona.html text="WIP" %}
+    </div>
   </div>
 </section>
 
