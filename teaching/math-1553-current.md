@@ -65,8 +65,8 @@ permalink: /teaching/math-1553/
         <time datetime="2026-09-18">September 18</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 3)</span></h3>
       </div>
-      <div class="current-course-announcement" data-event-end="2026-09-22T15:00:00">
-        <time datetime="2026-09-22T14:00:00">September 22 · 2:00–3:00 PM</time>
+      <div class="current-course-announcement" data-event-end="2026-09-22T16:00:00">
+        <time datetime="2026-09-22T15:00:00">September 22 · 3:00–4:00 PM</time>
         <h3>Extra office hour<br><a class="current-course-announcement__map" href="https://www.google.com/maps/place/Groseclose+Building/@33.7757751,-84.4067586,17z/data=!3m1!4b1!4m6!3m5!1s0x88f505e3285ac2ab:0xf5faf62de6942988!8m2!3d33.7757752!4d-84.4018877!16s%2Fg%2F11g19zx5yh!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Groseclose 335 <span aria-hidden="true">↗</span></a></h3>
       </div>
       <div class="current-course-announcement" data-event-end="2026-09-23T19:45:00">
