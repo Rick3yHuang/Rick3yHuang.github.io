@@ -2068,23 +2068,6 @@ a.research-link:focus-visible {
   color: #80651e;
 }
 
-.course-complete-notes__wip .wip-note {
-  margin: 0;
-  min-height: 0;
-  padding: 0;
-  gap: 0.4rem;
-  color: #80651e;
-  background: transparent;
-  border: 0;
-  font-size: 0.68rem;
-  font-weight: 750;
-  white-space: nowrap;
-}
-
-.course-complete-notes__wip .wip-note__mascot {
-  width: 3rem;
-}
-
 .course-complete-notes--complete {
   background: rgba(222, 239, 249, 0.68);
   border-color: rgba(29, 104, 158, 0.62);

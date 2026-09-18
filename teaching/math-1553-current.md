@@ -142,16 +142,17 @@ permalink: /teaching/math-1553/
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
-      {% include wip-cocona.html text="Week 04 notes will be posted here." %}
+      <figure class="course-pdf-pages" aria-label="Week 04 handwritten notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week04/page-1.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 04 notes introducing matrix equations, matrix-vector multiplication, equivalent representations of a linear system, and conditions for consistency.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week04/page-2.webp' | relative_url }}" width="1320" height="1020" loading="lazy" decoding="async" alt="Week 04 notes comparing homogeneous and inhomogeneous systems, trivial and nontrivial solutions, free variables, and the geometry of solution sets.">
+      </figure>
     </div>
   </details>
 
-  <div class="course-complete-notes course-complete-notes--review">
-    <span><small>Cumulative review · Through Section 2.4</small><strong>Midterm 1 Review</strong></span>
-    <div class="course-complete-notes__wip">
-      {% include wip-cocona.html text="WIP" %}
-    </div>
-  </div>
+  <a class="course-complete-notes course-complete-notes--review" href="{{ '/output/pdf/m1.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <span><small>Cumulative review · Sections 1.1–2.4 · 12 pages</small><strong>Midterm 1 Review</strong></span>
+    <em>PDF <span aria-hidden="true">↗</span></em>
+  </a>
 </section>
 
 <section class="course-section" id="resources">
