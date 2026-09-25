@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 9/14/2026–9/18/2026</p>
-    <h2>Matrix Equations &amp; Solution Sets</h2>
-    <a href="#weekly-notes">View Week 04 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 9/28/2026–10/2/2026</p>
+    <h2>Linear Independence, Subspaces, Basis and Dimension, The Rank Theorem &amp; Matrix Transformations</h2>
+    <a href="#week-05">View Week 05 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -80,6 +80,14 @@ permalink: /teaching/math-1553/
       <div class="current-course-announcement" data-event-end="2026-09-25T16:20:00">
         <time datetime="2026-09-25">September 25</time>
         <h3><span class="current-course-announcement__highlight">NO STUDIO, NO QUIZ</span></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-02T14:30:00">
+        <time datetime="2026-10-02">October 2</time>
+        <h3>Office hour</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-02T16:20:00">
+        <time datetime="2026-10-02">October 2</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">NO QUIZ</span></h3>
       </div>
     </div>
   </article>
@@ -153,6 +161,18 @@ permalink: /teaching/math-1553/
     <span><small>Cumulative review · Sections 1.1–2.4 · 12 pages</small><strong>Midterm 1 Review</strong></span>
     <em>PDF <span aria-hidden="true">↗</span></em>
   </a>
+
+  <details class="course-note" id="week-05">
+    <summary>
+      <span class="course-note__week">Week 05 · Sections 2.5–2.7, 2.9 &amp; 3.1</span>
+      <span class="course-note__title">Linear Independence, Subspaces, Basis and Dimension, The Rank Theorem &amp; Matrix Transformations</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      {% include wip-cocona.html %}
+    </div>
+  </details>
+
 </section>
 
 <section class="course-section" id="resources">

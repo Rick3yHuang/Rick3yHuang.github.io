@@ -2006,6 +2006,10 @@ a.research-link:focus-visible {
   margin-top: 0.7rem;
 }
 
+.course-complete-notes + .course-note {
+  margin-top: 1rem;
+}
+
 .course-complete-notes {
   display: flex;
   margin-top: 1rem;
