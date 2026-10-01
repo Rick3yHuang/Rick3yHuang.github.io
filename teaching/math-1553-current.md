@@ -169,7 +169,15 @@ permalink: /teaching/math-1553/
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
-      {% include wip-cocona.html %}
+      <figure class="course-pdf-pages" aria-label="Week 05 notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week05/page-1.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 05, page 1: Linear independence, pivot columns, and solutions to homogeneous systems.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week05/page-2.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 05, page 2: Subspaces, column and null spaces, basis, and dimension.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week05/page-3.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 05, page 3: The Rank Theorem and an introduction to transformations, domain, codomain, and range.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week05/page-4.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 05, page 4: Matrix transformations and the relationships between matrix size, domain, codomain, and range.">
+      </figure>
+      <div class="course-note__actions">
+        <a href="{{ '/output/pdf/math-1553-fall-2026-week05.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 05 notes (PDF) <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </details>
 
