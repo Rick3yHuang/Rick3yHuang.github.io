@@ -3307,6 +3307,35 @@ td {
   align-self: flex-start;
 }
 
+.current-course-room-change {
+  padding: 0.6rem 0.75rem;
+  color: #9a3412;
+  background: #fff7ed;
+  border-left: 4px solid #ea580c;
+}
+
+.current-course-room-change a {
+  color: inherit;
+  font-size: 0.8rem;
+}
+
+.current-course-room-change a:hover,
+.current-course-room-change a:focus-visible {
+  text-decoration: underline;
+}
+
+.current-course-room-change p {
+  margin: 0.25rem 0 0;
+  font-size: 0.65rem;
+  line-height: 1.5;
+}
+
+[data-theme="dark"] .current-course-room-change {
+  color: #fed7aa;
+  background: #431f12;
+  border-left-color: #fb923c;
+}
+
 .current-course-dashboard__resource {
   padding: 0.7rem 1.1rem;
   grid-column: 1 / -1;

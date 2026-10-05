@@ -25,7 +25,10 @@ permalink: /teaching/math-1553/
   <article class="current-course-card">
     <p class="current-course-card__label">Studio · Section J03</p>
     <h3>Fridays, 3:30–4:20 PM</h3>
-    <a href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+268%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 268 <span aria-hidden="true">↗</span></a>
+    <div class="current-course-room-change">
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+168%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">New room: Skiles 168 <span aria-hidden="true">↗</span></a>
+      <p>Starting Friday, October 9, for the rest of Fall 2026.</p>
+    </div>
   </article>
 
   <article class="current-course-card">
