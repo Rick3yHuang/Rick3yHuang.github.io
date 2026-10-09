@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 9/28/2026–10/2/2026</p>
-    <h2>Linear Independence, Subspaces, Basis and Dimension, The Rank Theorem &amp; Matrix Transformations</h2>
-    <a href="#week-05">View Week 05 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 10/5/2026–10/9/2026</p>
+    <h2>One-to-one and Onto Transformation &amp; Linear Transformation</h2>
+    <a href="#week-06">View Week 06 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -91,6 +91,19 @@ permalink: /teaching/math-1553/
       <div class="current-course-announcement" data-event-end="2026-10-02T16:20:00">
         <time datetime="2026-10-02">October 2</time>
         <h3>Studio — <span class="current-course-announcement__highlight">NO QUIZ</span></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-09T14:30:00">
+        <time datetime="2026-10-09T13:30:00">October 9 · 1:30–2:30 PM</time>
+        <h3>Office hour — Math Lab · Clough 280</h3>
+      </div>
+      <div class="current-course-announcement current-course-room-change" data-event-end="2026-10-09T16:20:00">
+        <time datetime="2026-10-09">Starting October 9</time>
+        <h3>Room change — <a href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+168%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 168 <span aria-hidden="true">↗</span></a></h3>
+        <p>All remaining J03 studios this semester will meet in Skiles 168 instead of Skiles 268.</p>
+      </div>
+      <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-10-09T16:20:00">
+        <time datetime="2026-10-09T15:30:00">October 9 · 3:30–4:20 PM</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 4)</span><br>Skiles 168</h3>
       </div>
     </div>
   </article>
@@ -180,6 +193,23 @@ permalink: /teaching/math-1553/
       </figure>
       <div class="course-note__actions">
         <a href="{{ '/output/pdf/math-1553-fall-2026-week05.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 05 notes (PDF) <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </details>
+
+  <details class="course-note" id="week-06">
+    <summary>
+      <span class="course-note__week">Week 06 · Sections 3.2–3.3</span>
+      <span class="course-note__title">One-to-one and Onto Transformation &amp; Linear Transformation</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      <figure class="course-pdf-pages" aria-label="Week 06 notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week06/page-1.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 06, page 1: One-to-one and onto transformations, equivalent matrix conditions, and diagrams.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week06/page-2.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 06, page 2: Linear transformations, standard coordinate vectors, and the columns of a transformation matrix.">
+      </figure>
+      <div class="course-note__actions">
+        <a href="{{ '/output/pdf/math-1553-fall-2026-week06.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 06 notes (PDF) <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </details>
