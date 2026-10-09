@@ -17,18 +17,15 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 10/5/2026–10/9/2026</p>
-    <h2>One-to-one and Onto Transformation &amp; Linear Transformation</h2>
-    <a href="#week-06">View Week 06 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 10/12/2026–10/16/2026</p>
+    <h2>Matrix Multiplication</h2>
+    <a href="#week-07">View Week 07 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
     <p class="current-course-card__label">Studio · Section J03</p>
     <h3>Fridays, 3:30–4:20 PM</h3>
-    <div class="current-course-room-change">
-      <a href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+168%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">New room: Skiles 168 <span aria-hidden="true">↗</span></a>
-      <p>Starting Friday, October 9, for the rest of Fall 2026.</p>
-    </div>
+    <a href="https://www.google.com/maps/search/?api=1&amp;query=Skiles+Classroom+Building+168%2C+Atlanta%2C+GA" target="_blank" rel="noopener noreferrer">Skiles 168 <span aria-hidden="true">↗</span></a>
   </article>
 
   <article class="current-course-card">
@@ -105,6 +102,34 @@ permalink: /teaching/math-1553/
         <time datetime="2026-10-09T15:30:00">October 9 · 3:30–4:20 PM</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 4)</span><br>Skiles 168</h3>
       </div>
+      <div class="current-course-announcement" data-event-end="2026-10-16T14:30:00">
+        <time datetime="2026-10-16T13:30:00">October 16 · 1:30–2:30 PM</time>
+        <h3>Office hour</h3>
+      </div>
+      <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-10-16T16:20:00">
+        <time datetime="2026-10-16T15:30:00">October 16 · 3:30–4:20 PM</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 5)</span></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-20T16:00:00">
+        <time datetime="2026-10-20T15:00:00">Tuesday, October 20 · 3:00–4:00 PM</time>
+        <h3>Extra office hour<br>Location TBD</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-21T17:00:00">
+        <time datetime="2026-10-21T16:00:00">Wednesday, October 21 · 4:00–5:00 PM</time>
+        <h3>Extra office hour<br>Location TBD</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-21T19:45:00">
+        <time datetime="2026-10-21T18:30:00">Wednesday, October 21 · 6:30–7:45 PM</time>
+        <h3><span class="current-course-announcement__highlight">Midterm 2</span> — Sections 2.5–2.7 &amp; 2.9–3.4<br><a class="current-course-announcement__map" href="https://www.google.com/maps/search/?api=1&amp;query=Instructional+Center%2C+Georgia+Tech" target="_blank" rel="noopener noreferrer">Instructional Center 103 <span aria-hidden="true">↗</span></a></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-23T14:30:00">
+        <time datetime="2026-10-23T13:30:00">October 23 · 1:30–2:30 PM</time>
+        <h3>Office hour</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-23T16:20:00">
+        <time datetime="2026-10-23">October 23</time>
+        <h3><span class="current-course-announcement__highlight">NO STUDIO, NO QUIZ</span></h3>
+      </div>
     </div>
   </article>
 </section>
@@ -174,7 +199,7 @@ permalink: /teaching/math-1553/
   </details>
 
   <a class="course-complete-notes course-complete-notes--review" href="{{ '/output/pdf/m1.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-    <span><small>Cumulative review · Sections 1.1–2.4 · 12 pages</small><strong>Midterm 1 Review</strong></span>
+    <span><small>Cumulative review · Sections 1.1–2.4 · 9 pages</small><strong>Midterm 1 Review</strong></span>
     <em>PDF <span aria-hidden="true">↗</span></em>
   </a>
 
@@ -213,6 +238,22 @@ permalink: /teaching/math-1553/
       </div>
     </div>
   </details>
+
+  <details class="course-note" id="week-07">
+    <summary>
+      <span class="course-note__week">Week 07 · Section 3.4</span>
+      <span class="course-note__title">Matrix Multiplication</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      {% include wip-cocona.html %}
+    </div>
+  </details>
+
+  <div class="course-complete-notes course-complete-notes--review" id="midterm-2-review">
+    <span><small>Cumulative review · Sections 2.5–2.7 &amp; 2.9–3.4</small><strong>Midterm 2 Review</strong></span>
+    <em>WIP</em>
+  </div>
 
 </section>
 
