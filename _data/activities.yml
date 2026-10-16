@@ -9,6 +9,7 @@
 #   location: City, State or Online
 #   url: https://example.com
 - date: "2026-10-10"
+  end_date: "2026-10-11"
   date_label: Oct 10–11, 2026
   type: AMS Sectional Meeting
   participation: Talk
@@ -16,9 +17,9 @@
   venue: Kennesaw State University
   location: Kennesaw, Georgia
   url: https://www.ams.org/meetings/sectional/fall2026se
-  current_marker_after: true
 
 - date: "2026-07-20"
+  end_date: "2026-07-23"
   date_label: Jul 20–23, 2026
   type: International Conference
   participation: Talk
@@ -28,6 +29,7 @@
   url: https://icms-conference.org/2026/
 
 - date: "2026-07-06"
+  end_date: "2026-07-10"
   date_label: Jul 6–10, 2026
   type: Conference
   participation: Talk
@@ -37,6 +39,7 @@
   url: https://www.siam.org/conferences-events/siam-conferences/an26/
 
 - date: "2026-05-13"
+  end_date: "2026-05-21"
   date_label: May 13–21, 2026
   type: Workshop
   participation: Presentation
@@ -46,6 +49,7 @@
   url: https://d-torrance.github.io/m2gt26/
 
 - date: "2026-04-18"
+  end_date: "2026-04-19"
   date_label: Apr 18–19, 2026
   type: Regional Meeting
   participation: Poster
@@ -55,6 +59,7 @@
   url: https://klee669.github.io/maag
 
 - date: "2026-03-28"
+  end_date: "2026-03-29"
   date_label: Mar 28–29, 2026
   type: AMS Sectional Meeting
   participation: Talk
@@ -64,6 +69,7 @@
   url: https://www.ams.org/meetings/sectional/2329_progfull.html
 
 - date: "2025-11-24"
+  end_date: "2025-11-28"
   date_label: Nov 24–28, 2025
   type: International Conference
   participation: Talk
@@ -73,6 +79,7 @@
   url: https://casc-conference.org/2025/index.html
 
 - date: "2025-07-07"
+  end_date: "2025-07-11"
   date_label: Jul 7–11, 2025
   type: Conference
   participation: Talk
@@ -82,6 +89,7 @@
   url: https://www.siam.org/conferences-events/past-event-archive/ag25/
 
 - date: "2025-06-30"
+  end_date: "2025-07-04"
   date_label: Jun 30–Jul 4, 2025
   type: Workshop
   participation: Presentation
@@ -91,6 +99,7 @@
   url: https://macaulay2.github.io/Workshop-2025-Madison/
 
 - date: "2025-04-14"
+  end_date: "2025-04-18"
   date_label: Apr 14–18, 2025
   type: Workshop and Mini-School
   title: Macaulay2 at Tulane
@@ -99,6 +108,7 @@
   url: https://sites.google.com/view/macaulay2tulane/
 
 - date: "2025-03-08"
+  end_date: "2025-03-09"
   date_label: Mar 8–9, 2025
   type: AMS Sectional Meeting
   participation: Talk
@@ -108,6 +118,7 @@
   url: https://www.ams.org/meetings/sectional/2324_program.html
 
 - date: "2024-07-20"
+  end_date: "2024-07-24"
   date_label: Jul 20–24, 2024
   type: Workshop
   participation: Presentation
@@ -117,6 +128,7 @@
   url: https://sites.google.com/hawaii.edu/summer-workshops-at-manoa/algebra-of-phylogenetics
 
 - date: "2024-07-16"
+  end_date: "2024-07-19"
   date_label: Jul 16–19, 2024
   type: International Conference
   title: International Symposium on Symbolic and Algebraic Computation (ISSAC 2024)
@@ -125,6 +137,7 @@
   url: https://www.issac-conference.org/2024/
 
 - date: "2024-07-14"
+  end_date: "2024-07-15"
   date_label: Jul 14–15, 2024
   type: Mini-School
   title: Macaulay2 Mini-School
@@ -133,6 +146,7 @@
   url: https://sites.google.com/view/m2-2024-in-raleigh/home
 
 - date: "2023-06-12"
+  end_date: "2023-06-23"
   date_label: Jun 12–23, 2023
   type: Summer Graduate School
   participation: Presentation
@@ -142,6 +156,7 @@
   url: https://www.mis.mpg.de/events/series/msri-mpi-leipzig-summer-graduate-school-on-algebraic-methods-for-biochemical-reaction-networks
 
 - date: "2023-04-15"
+  end_date: "2023-04-16"
   date_label: Apr 15–16, 2023
   type: Conference
   participation: Poster

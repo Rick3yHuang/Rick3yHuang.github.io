@@ -17,25 +17,27 @@ permalink: /activities/
     <span>Event archive</span>
   </header>
   <div class="timeline-list activities-timeline">
-    {% for event in site.data.activities %}
-      <div class="timeline-entry activity-entry activity-entry--{{ event.type | slugify }}">
+    {% assign activity_today = site.time | date: '%Y-%m-%d' %}
+      {% assign activity_marker_shown = false %}
+      {% for event in site.data.activities %}
+      {% assign activity_end = event.end_date | default: event.date | date: '%Y-%m-%d' %}
+        {% if activity_marker_shown == false and activity_end < activity_today %}
+          {% include activity-now.html %}
+          {% assign activity_marker_shown = true %}
+        {% endif %}
+        <div class="timeline-entry activity-entry activity-entry--{{ event.type | slugify }}" data-activity-end="{{ activity_end }}">
         <time class="timeline-date" datetime="{{ event.date }}">{{ event.date_label }}</time>
         <article class="activity-card">
           <div class="activity-card__meta">
             <p class="activity-card__type">{{ event.type }}</p>
             {% if event.participation %}<span class="activity-role activity-role--{{ event.participation | downcase }}">{{ event.participation }}</span>{% endif %}
           </div>
-          <h3>{% if event.url %}<a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>{% else %}{{ event.title }}{% endif %}</h3>
+          <h3>{% if event.url %}<a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>{% else %}
+        {% assign activity_marker_shown = true %}{{ event.title }}{% endif %}</h3>
           {% if event.venue %}<p class="activity-card__venue">{{ event.venue }}</p>{% endif %}
           {% if event.location %}<p class="activity-card__location">{{ event.location }}</p>{% endif %}
         </article>
       </div>
-      {% if event.current_marker_after %}
-        <div class="timeline-entry activities-current">
-          <span class="timeline-date">Current</span>
-          <div class="activities-current__label">Now</div>
-        </div>
-      {% endif %}
     {% else %}
       <div class="timeline-entry activities-current">
         <span class="timeline-date">Current</span>
@@ -46,5 +48,8 @@ permalink: /activities/
         <div>{% include wip-cocona.html text="Event history coming soon" %}</div>
       </div>
     {% endfor %}
+      {% unless activity_marker_shown %}
+        {% include activity-now.html %}
+      {% endunless %}
   </div>
 </section>

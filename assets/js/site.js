@@ -91,6 +91,28 @@ document.querySelectorAll("[data-scroll-next]").forEach((list) => {
   }
 });
 
+function updateActivityTimelines(now = new Date()) {
+  const today = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York",
+    year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(now);
+
+  document.querySelectorAll(".activities-timeline").forEach((timeline) => {
+    const marker = timeline.querySelector(".activities-current");
+    const events = [...timeline.querySelectorAll("[data-activity-end]")];
+    if (!marker || !events.length) return;
+    const firstPastEvent = events.find((event) => event.dataset.activityEnd < today);
+    if (firstPastEvent) {
+      timeline.insertBefore(marker, firstPastEvent);
+    } else {
+      events[events.length - 1].after(marker);
+    }
+  });
+}
+
+updateActivityTimelines();
+window.setInterval(updateActivityTimelines, 60000);
+
 const themeToggle = document.querySelector(".theme-toggle");
 const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
 const siteNavToggle = document.querySelector(".site-nav-toggle");
