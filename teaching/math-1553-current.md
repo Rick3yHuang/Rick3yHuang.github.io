@@ -246,14 +246,19 @@ permalink: /teaching/math-1553/
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
-      {% include wip-cocona.html %}
+      <figure class="course-pdf-pages" aria-label="Week 07 notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week07/page-1.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 07 notes on composition of linear transformations, matrix multiplication, compatible dimensions, the row-column rule, and properties of matrix products.">
+      </figure>
+      <div class="course-note__actions">
+        <a href="{{ '/output/pdf/math-1553-fall-2026-week07.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 07 notes (PDF) <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </details>
 
-  <div class="course-complete-notes course-complete-notes--review" id="midterm-2-review">
-    <span><small>Cumulative review · Sections 2.5–2.7 &amp; 2.9–3.4</small><strong>Midterm 2 Review</strong></span>
-    <em>WIP</em>
-  </div>
+  <a class="course-complete-notes course-complete-notes--review" id="midterm-2-review" href="{{ '/output/pdf/m2.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <span><small>Cumulative review · Sections 2.5–2.7 &amp; 2.9–3.4 · 7 pages</small><strong>Midterm 2 Review</strong></span>
+    <em>PDF <span aria-hidden="true">↗</span></em>
+  </a>
 
 </section>
 
