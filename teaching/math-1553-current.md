@@ -110,9 +110,13 @@ permalink: /teaching/math-1553/
         <time datetime="2026-10-16T15:30:00">October 16 · 3:30–4:20 PM</time>
         <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 5)</span></h3>
       </div>
+      <div class="current-course-announcement" data-event-end="2026-10-20T15:30:00">
+        <time datetime="2026-10-20T15:00:00">Tuesday, October 20 · 3:00–3:30 PM</time>
+        <h3>Extra office hour<br><a class="current-course-announcement__map" href="https://www.google.com/maps/search/?api=1&amp;query=Clough+Undergraduate+Learning+Commons%2C+Georgia+Tech" target="_blank" rel="noopener noreferrer">Clough 445 <span aria-hidden="true">↗</span></a></h3>
+      </div>
       <div class="current-course-announcement" data-event-end="2026-10-20T16:00:00">
-        <time datetime="2026-10-20T15:00:00">Tuesday, October 20 · 3:00–4:00 PM</time>
-        <h3>Extra office hour<br><a class="current-course-announcement__map" href="https://www.google.com/maps/search/?api=1&amp;query=Clough+Undergraduate+Learning+Commons%2C+Georgia+Tech" target="_blank" rel="noopener noreferrer">Clough 455 <span aria-hidden="true">↗</span></a></h3>
+        <time datetime="2026-10-20T15:30:00">Tuesday, October 20 · 3:30–4:00 PM</time>
+        <h3>Extra office hour<br><a class="current-course-announcement__map" href="https://www.google.com/maps/search/?api=1&amp;query=Clough+Undergraduate+Learning+Commons%2C+Georgia+Tech" target="_blank" rel="noopener noreferrer">Clough 317 <span aria-hidden="true">↗</span></a></h3>
       </div>
       <div class="current-course-announcement" data-event-end="2026-10-21T19:45:00">
         <time datetime="2026-10-21T18:30:00">Wednesday, October 21 · 6:30–7:45 PM</time>
