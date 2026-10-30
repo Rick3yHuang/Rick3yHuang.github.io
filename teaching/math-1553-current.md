@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 10/12/2026–10/16/2026</p>
-    <h2>Matrix Multiplication</h2>
-    <a href="#week-07">View Week 07 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 10/26/2026–10/30/2026</p>
+    <h2>Matrix Inverse, The Invertible Matrix Theorem, Determinants: Definition, Cofactors Expansions &amp; Determinants and Volumes</h2>
+    <a href="#week-08">View Week 08 notes <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -129,6 +129,14 @@ permalink: /teaching/math-1553/
       <div class="current-course-announcement" data-event-end="2026-10-23T16:20:00">
         <time datetime="2026-10-23">October 23</time>
         <h3><span class="current-course-announcement__highlight">NO STUDIO, NO QUIZ</span></h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-30T14:30:00">
+        <time datetime="2026-10-30T13:30:00">October 30 · 1:30–2:30 PM</time>
+        <h3>Office hour — Math Lab · Clough 280</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-10-30T16:20:00">
+        <time datetime="2026-10-30T15:30:00">October 30 · 3:30–4:20 PM</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">NO QUIZ</span><br>Skiles 168</h3>
       </div>
     </div>
   </article>
@@ -259,6 +267,31 @@ permalink: /teaching/math-1553/
     <span><small>Cumulative review · Sections 2.5–2.7 &amp; 2.9–3.4 · 7 pages</small><strong>Midterm 2 Review</strong></span>
     <em>PDF <span aria-hidden="true">↗</span></em>
   </a>
+
+  <details class="course-note" id="week-08">
+    <summary>
+      <span class="course-note__week">Week 08 · Sections 3.5–3.6 &amp; 4.1–4.3</span>
+      <span class="course-note__title">Matrix Inverse, The Invertible Matrix Theorem, Determinants: Definition, Cofactors Expansions &amp; Determinants and Volumes</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      <ul>
+        <li>3.5 · Matrix Inverse</li>
+        <li>3.6 · The Invertible Matrix Theorem</li>
+        <li>4.1 · Determinants: Definition</li>
+        <li>4.2 · Cofactors Expansions</li>
+        <li>4.3 · Determinants and Volumes</li>
+      </ul>
+      <figure class="course-pdf-pages" aria-label="Week 08 notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week08/page-1.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 08, page 1: Section 3.5 Matrix Inverse and Section 3.6 The Invertible Matrix Theorem.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week08/page-2.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 08, page 2: Section 4.1 Determinants: Definition, row operations, transpose, and properties of determinants.">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week08/page-3.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 08, page 3: Section 4.2 Cofactors Expansions and Section 4.3 Determinants and Volumes.">
+      </figure>
+      <div class="course-note__actions">
+        <a href="{{ '/output/pdf/math-1553-fall-2026-week08.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 08 notes (PDF) <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </details>
 
 </section>
 
