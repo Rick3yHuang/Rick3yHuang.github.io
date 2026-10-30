@@ -275,13 +275,6 @@ permalink: /teaching/math-1553/
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
-      <ul>
-        <li>3.5 · Matrix Inverse</li>
-        <li>3.6 · The Invertible Matrix Theorem</li>
-        <li>4.1 · Determinants: Definition</li>
-        <li>4.2 · Cofactors Expansions</li>
-        <li>4.3 · Determinants and Volumes</li>
-      </ul>
       <figure class="course-pdf-pages" aria-label="Week 08 notes">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week08/page-1.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 08, page 1: Section 3.5 Matrix Inverse and Section 3.6 The Invertible Matrix Theorem.">
         <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week08/page-2.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 08, page 2: Section 4.1 Determinants: Definition, row operations, transpose, and properties of determinants.">
