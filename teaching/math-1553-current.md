@@ -17,9 +17,9 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 10/26/2026–10/30/2026</p>
-    <h2>Matrix Inverse, The Invertible Matrix Theorem, Determinants: Definition, Cofactors Expansions &amp; Determinants and Volumes</h2>
-    <a href="#week-08">View Week 08 notes <span aria-hidden="true">↓</span></a>
+    <p class="current-course-card__label">Week 11/09/2026–11/13/2026</p>
+    <h2>Eigenvalues and Eigenvectors &amp; The Characteristic Polynomial</h2>
+    <a href="#week-09">View latest notes (Week 09) <span aria-hidden="true">↓</span></a>
   </article>
 
   <article class="current-course-card">
@@ -137,6 +137,14 @@ permalink: /teaching/math-1553/
       <div class="current-course-announcement" data-event-end="2026-10-30T16:20:00">
         <time datetime="2026-10-30T15:30:00">October 30 · 3:30–4:20 PM</time>
         <h3>Studio — <span class="current-course-announcement__highlight">NO QUIZ</span><br>Skiles 168</h3>
+      </div>
+      <div class="current-course-announcement" data-event-end="2026-11-06T14:30:00">
+        <time datetime="2026-11-06T13:30:00">November 6 · 1:30–2:30 PM</time>
+        <h3>Office hour</h3>
+      </div>
+      <div class="current-course-announcement current-course-announcement--quiz" data-event-end="2026-11-06T16:20:00">
+        <time datetime="2026-11-06T15:30:00">November 6 · 3:30–4:20 PM</time>
+        <h3>Studio — <span class="current-course-announcement__highlight">In-studio quiz (quiz 6)</span></h3>
       </div>
     </div>
   </article>
@@ -283,6 +291,17 @@ permalink: /teaching/math-1553/
       <div class="course-note__actions">
         <a href="{{ '/output/pdf/math-1553-fall-2026-week08.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 08 notes (PDF) <span aria-hidden="true">↗</span></a>
       </div>
+    </div>
+  </details>
+
+  <details class="course-note" id="week-09">
+    <summary>
+      <span class="course-note__week">Week 09 · Sections 5.1–5.2</span>
+      <span class="course-note__title">Eigenvalues and Eigenvectors &amp; The Characteristic Polynomial</span>
+      <span class="course-note__toggle" aria-hidden="true"></span>
+    </summary>
+    <div class="course-note__body">
+      {% include wip-cocona.html text="WIP" %}
     </div>
   </details>
 
