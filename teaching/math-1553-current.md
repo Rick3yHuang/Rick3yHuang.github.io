@@ -17,8 +17,8 @@ permalink: /teaching/math-1553/
 
 <section class="current-course-dashboard" aria-label="Current MATH 1553 information">
   <article class="current-course-card current-course-card--week">
-    <p class="current-course-card__label">Week 11/09/2026–11/13/2026</p>
-    <h2>Eigenvalues and Eigenvectors &amp; The Characteristic Polynomial</h2>
+    <p class="current-course-card__label">Week 11/02/2026–11/06/2026</p>
+    <h2>Eigenvalues and Eigenvectors</h2>
     <a href="#week-09">View latest notes (Week 09) <span aria-hidden="true">↓</span></a>
   </article>
 
@@ -296,12 +296,17 @@ permalink: /teaching/math-1553/
 
   <details class="course-note" id="week-09">
     <summary>
-      <span class="course-note__week">Week 09 · Sections 5.1–5.2</span>
-      <span class="course-note__title">Eigenvalues and Eigenvectors &amp; The Characteristic Polynomial</span>
+      <span class="course-note__week">Week 09 · Section 5.1</span>
+      <span class="course-note__title">Eigenvalues and Eigenvectors</span>
       <span class="course-note__toggle" aria-hidden="true"></span>
     </summary>
     <div class="course-note__body">
-      {% include wip-cocona.html text="WIP" %}
+      <figure class="course-pdf-pages" aria-label="Week 09 notes">
+        <img src="{{ '/assets/images/teaching/math-1553/fall-2026-week09/page-1.webp' | relative_url }}" width="1800" height="1391" loading="lazy" decoding="async" alt="Week 09 notes on Section 5.1 Eigenvalues and Eigenvectors: definitions, geometric interpretation, eigenspaces, and finding a basis using the null space of A minus lambda I.">
+      </figure>
+      <div class="course-note__actions">
+        <a href="{{ '/output/pdf/math-1553-fall-2026-week09.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download Week 09 notes (PDF) <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </details>
 
